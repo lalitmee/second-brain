@@ -15,6 +15,16 @@ These are the notes which I have taken while I faced any problem and I spent a l
   }
   ```
 
+- **Vertical Scroll in the Table's body** 
+
+  - [Link to the Codepen**](https://codepen.io/paulobrien/pen/NvxNyY)**
+
+- **Dropdown Open on click of Icon outside of Input**
+
+  - Just put the icon in a label and give the **#ID** of the input inside the for of the label
+
+
+
 ## Angular
 
 - Using **Subject Observable** for saving the user data on tokenvalidate and login was creating problem because I was putting Subject on both places while declaring the observable. [Stackeoverflow](https://stackoverflow.com/questions/50099517/observable-next-is-not-a-function) answer explained here and It should be declared following:
