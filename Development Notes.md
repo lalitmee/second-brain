@@ -8,16 +8,16 @@ These are the notes which I have taken while I faced any problem and I spent a l
 
 ```css
 .ui-select-choices {
-position: fixed;
-top: auto;
-left: auto;
-width: inherit;
+  position: fixed;
+  top: auto;
+  left: auto;
+  width: inherit;
 }
 ```
 
-- **Vertical Scroll in the Table's body** 
+- **Vertical Scroll in the Table's body**
 
-- [Link to the Codepen**](https://codepen.io/paulobrien/pen/NvxNyY)**
+- [Link to the Codepen\*\*](https://codepen.io/paulobrien/pen/NvxNyY)\*\*
 
 - **Dropdown Open on click of Icon outside of Input**
 
@@ -30,4 +30,3 @@ width: inherit;
 ```javascript
 resultJob: Subject<string> = new BehaviorSubject<string>("PENDING");
 ```
-
