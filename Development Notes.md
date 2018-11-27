@@ -17,11 +17,11 @@ These are the notes which I have taken while I faced any problem and I spent a l
 
 - **Vertical Scroll in the Table's body**
 
-- [Link to the Codepen](https://codepen.io/paulobrien/pen/NvxNyY)
-
+  - [Link to the Codepen](https://codepen.io/paulobrien/pen/NvxNyY)
 - **Dropdown Open on click of Icon outside of Input**
-
-- Just put the icon in a label and give the **#ID** of the input inside the for of the labels
+  - Just put the icon in a label and give the **#ID** of the input inside the for of the labels
+- **Vertical Scroll** in the body of the **Table**
+  - [Link to the Codepen](https://codepen.io/lalitmee/pen/NEzZbW)
 
 ## Angular
 
