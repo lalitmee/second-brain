@@ -17,7 +17,7 @@ These are the notes which I have taken while I faced any problem and I spent a l
 
 - **Vertical Scroll in the Table's body**
 
-- [Link to the Codepen\*\*](https://codepen.io/paulobrien/pen/NvxNyY)\*\*
+- [Link to the Codepen](https://codepen.io/paulobrien/pen/NvxNyY)
 
 - **Dropdown Open on click of Icon outside of Input**
 
@@ -30,3 +30,7 @@ These are the notes which I have taken while I faced any problem and I spent a l
 ```javascript
 resultJob: Subject<string> = new BehaviorSubject<string>("PENDING");
 ```
+
+### JavaScript
+
+- Creating a CSV file in Javascript: [Link to the Post](https://code-maven.com/create-and-download-csv-with-javascript)
