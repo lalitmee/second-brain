@@ -59,3 +59,10 @@ resultJob: Subject<string> = new BehaviorSubject<string>("PENDING");
 ### JavaScript
 
 - Creating a CSV file in Javascript: [Link to the Post](https://code-maven.com/create-and-download-csv-with-javascript)
+- For checking if any class exists on the element or not we can use `.includes()`
+  ```javascript
+  const element = docuemnt.getElementsByClassName('class');
+  if (element.classList.includes('any-class')) {
+    // do this
+  }
+  ```
