@@ -23,6 +23,100 @@ These are the notes which I have taken while I faced any problem and I spent a l
   - Just put the icon in a label and give the **#ID** of the input inside the for of the labels
 - **Vertical Scroll** in the body of the **Table**
   - [Link to the Codepen](https://codepen.io/lalitmee/pen/NEzZbW)
+- **Shaking Animation for Notification Icon**
+
+  - Changing the class by using `ngClass` with animation in it
+
+  ```css
+  .notification-icon-shake {
+    display: inline-block;
+    color: #19659d;
+    -webkit-animation: ring 1000ms ease-in-out infinite;
+    -webkit-transform-origin: 50% 4px;
+    -moz-animation: ring 1000ms ease-in-out infinite;
+    -moz-transform-origin: 50% 4px;
+    animation: ring 1000ms ease-in-out infinite;
+    transform-origin: 50% 4px;
+  }
+  @keyframes ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    7.5% {
+      transform: rotate(25deg);
+    }
+    30% {
+      transform: rotate(-25deg);
+    }
+    45% {
+      transform: rotate(15deg);
+    }
+    58% {
+      transform: rotate(-10deg);
+    }
+    70% {
+      transform: rotate(5deg);
+    }
+    87.5% {
+      transform: rotate(-2deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  @-webkit-keyframes ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    7.5% {
+      transform: rotate(25deg);
+    }
+    30% {
+      transform: rotate(-25deg);
+    }
+    45% {
+      transform: rotate(15deg);
+    }
+    58% {
+      transform: rotate(-10deg);
+    }
+    70% {
+      transform: rotate(5deg);
+    }
+    87.5% {
+      transform: rotate(-2deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  @-moz-keyframes ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    7.5% {
+      transform: rotate(25deg);
+    }
+    30% {
+      transform: rotate(-25deg);
+    }
+    45% {
+      transform: rotate(15deg);
+    }
+    58% {
+      transform: rotate(-10deg);
+    }
+    70% {
+      transform: rotate(5deg);
+    }
+    87.5% {
+      transform: rotate(-2deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  ```
 
 ## Angular
 
