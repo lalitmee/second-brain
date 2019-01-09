@@ -20,9 +20,13 @@ These are the notes which I have taken while I faced any problem and I spent a l
   - [Link to the Codepen](https://codepen.io/paulobrien/pen/NvxNyY)
 
 - **Dropdown Open on click of Icon outside of Input**
+
   - Just put the icon in a label and give the **#ID** of the input inside the for of the labels
+
 - **Vertical Scroll** in the body of the **Table**
+
   - [Link to the Codepen](https://codepen.io/lalitmee/pen/NEzZbW)
+
 - **Shaking Animation for Notification Icon**
 
   - Changing the class by using `ngClass` with animation in it
@@ -118,6 +122,29 @@ These are the notes which I have taken while I faced any problem and I spent a l
   }
   ```
 
+#### Padding Concept
+
+The**`padding`**[CSS](https://developer.mozilla.org/en/CSS)property sets the[padding area](https://developer.mozilla.org/en/CSS/box_model#padding-area)on all four sides of an element. It is a[shorthand](https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties)for[`padding-top`](https://developer.mozilla.org/en-US/docs/Web/CSS/padding-top "The padding-top CSS property sets the height of the padding area on the top of an element."),[`padding-right`](https://developer.mozilla.org/en-US/docs/Web/CSS/padding-right "The padding-right CSS property sets the width of the padding area on the right side of an element."),[`padding-bottom`](https://developer.mozilla.org/en-US/docs/Web/CSS/padding-bottom "The padding-bottom CSS property sets the height of the padding area on the bottom of an element."), and[`padding-left`](https://developer.mozilla.org/en-US/docs/Web/CSS/padding-left "The padding-left CSS property sets the width of the padding area on the left side of an element.").
+
+```css
+/* Apply to all four sides */
+padding: 1em;
+
+/* vertical | horizontal */
+padding: 5% 10%;
+
+/* top | horizontal | bottom */
+padding: 1em 2em 2em;
+
+/* top | right | bottom | left */
+padding: 5px 1em 0 2em;
+
+/* Global values */
+padding: inherit;
+padding: initial;
+padding: unset;
+```
+
 ## Angular
 
 - Using **Subject Observable** for saving the user data on tokenvalidate and login was creating problem because I was putting Subject on both places while declaring the observable. [Stackeoverflow](https://stackoverflow.com/questions/50099517/observable-next-is-not-a-function) answer explained here and It should be declared following:
@@ -127,9 +154,10 @@ resultJob: Subject<string> = new BehaviorSubject<string>("PENDING");
 ```
 
 - Task Board
-
   - **On Updating Progress to 100%**, I had to move the task card to the **Completed** board, so I used **BehaviourSubject** for listening to the action if Task Progress is **100%**.
+
   - **Progress Component** is the **3rd** child for the **Boards Component**, so I listened for the isTaskComplete getter method and if it is true, I am calling the **getProjectScheduler** method again for arranging the tasks in the boards.
+
   - In **Task Board Service**
 
     ```typescript
