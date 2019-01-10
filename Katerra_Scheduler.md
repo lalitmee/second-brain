@@ -124,7 +124,7 @@ These are the notes which I have taken while I faced any problem and I spent a l
 
 #### Padding Concept
 
-The**`padding`**[CSS](https://developer.mozilla.org/en/CSS)property sets the[padding area](https://developer.mozilla.org/en/CSS/box_model#padding-area)on all four sides of an element. It is a[shorthand](https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties)for[`padding-top`](https://developer.mozilla.org/en-US/docs/Web/CSS/padding-top "The padding-top CSS property sets the height of the padding area on the top of an element."),[`padding-right`](https://developer.mozilla.org/en-US/docs/Web/CSS/padding-right "The padding-right CSS property sets the width of the padding area on the right side of an element."),[`padding-bottom`](https://developer.mozilla.org/en-US/docs/Web/CSS/padding-bottom "The padding-bottom CSS property sets the height of the padding area on the bottom of an element."), and[`padding-left`](https://developer.mozilla.org/en-US/docs/Web/CSS/padding-left "The padding-left CSS property sets the width of the padding area on the left side of an element.").
+The**`padding`**[CSS](https://developer.mozilla.org/en/CSS)property sets the[padding area](https://developer.mozilla.org/en/CSS/box_model#padding-area)on all four sides of an element. It is a[shorthand](https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties)for[`padding-top`](https://developer.mozilla.org/en-US/docs/Web/CSS/padding-top 'The padding-top CSS property sets the height of the padding area on the top of an element.'),[`padding-right`](https://developer.mozilla.org/en-US/docs/Web/CSS/padding-right 'The padding-right CSS property sets the width of the padding area on the right side of an element.'),[`padding-bottom`](https://developer.mozilla.org/en-US/docs/Web/CSS/padding-bottom 'The padding-bottom CSS property sets the height of the padding area on the bottom of an element.'), and[`padding-left`](https://developer.mozilla.org/en-US/docs/Web/CSS/padding-left 'The padding-left CSS property sets the width of the padding area on the left side of an element.').
 
 ```css
 /* Apply to all four sides */
@@ -143,6 +143,15 @@ padding: 5px 1em 0 2em;
 padding: inherit;
 padding: initial;
 padding: unset;
+```
+
+- Changing SVG Image Color by Pure CSS
+
+```css
+.calendar-svg {
+  width: 30px;
+  filter: invert(0.3) sepia(1) saturate(125) hue-rotate(195deg);
+}
 ```
 
 ## Angular
