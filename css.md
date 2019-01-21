@@ -44,3 +44,12 @@
   -webkit-border-radius: 100px;
 }
 ```
+
+- Box-shadow on the ng-select comes after clicking
+
+```css
+.ui-dropdown.ui-state-focus,
+.ui-multiselect.ui-state-focus {
+  box-shadow: none !important;
+}
+```
