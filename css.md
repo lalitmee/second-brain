@@ -53,3 +53,23 @@
   box-shadow: none !important;
 }
 ```
+
+- Text Gradient Color from CSS_Tricks
+
+```css
+.read-more {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#ff8a00),
+    to(#da1b60)
+  );
+  background: linear-gradient(to right, #ff8a00, #da1b60);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  font-weight: 700;
+}
+```
