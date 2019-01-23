@@ -73,3 +73,7 @@
   font-weight: 700;
 }
 ```
+
+- Awesome Button Styles on Hover
+
+  - [Link to the Website](https://tympanus.net/Development/ButtonStylesInspiration/)
