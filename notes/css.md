@@ -105,4 +105,4 @@
       }
       ```
 
-    - See this [ Image ]()
+    - See this ![Image](https://github.com/lalitmee/dNotes/blob/master/images/list-item-padded.png?raw=true)
