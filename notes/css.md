@@ -94,3 +94,15 @@
       -ms-transform: translate(-50%, -50%);
     }
     ```
+
+- For Lists
+
+  - Making bullets of lists padded according to the text for the new line
+
+    - ```css
+      ul {
+        list-style-position: outside;
+      }
+      ```
+
+    - See this [ Image ]()
