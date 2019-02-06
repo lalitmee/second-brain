@@ -106,3 +106,4 @@
       ```
 
     - See this ![Image](https://github.com/lalitmee/dNotes/blob/master/images/list-item-padded.png?raw=true)
+    - See this [JS Fiddle](http://jsfiddle.net/4rnNK/1/) too.
