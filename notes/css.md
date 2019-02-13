@@ -99,19 +99,19 @@
 
   - Making bullets of lists padded according to the text for the new line
 
-    - ```css
-      ul {
-        list-style-position: outside;
-      }
-      ```
+    ```css
+    ul {
+      list-style-position: outside;
+    }
+    ```
 
     - See this ![Image](https://github.com/lalitmee/dNotes/blob/master/images/list-item-padded.png?raw=true)
     - See this [JS Fiddle](http://jsfiddle.net/4rnNK/1/) too.
 
 - For making the text with three dots when it is larger than the element or div
 
-  - ```css
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    ```
+  ```css
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  ```
