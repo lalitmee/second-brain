@@ -2,7 +2,7 @@
 
 ## Maximilian Tutorial Notes
 
-- We should name the event handlers with the name handlers in those events. For example:
+- We should name the **event handlers** with the name **handlers** in those events. For example:
 
   ```javascript
   switchNameHandler = () => {
