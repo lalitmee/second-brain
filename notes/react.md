@@ -28,3 +28,16 @@
     this.setState({ persons: persons });
   };
   ```
+
+- For enabling **CSS Module** in **create-react-app** structure, we need to do this:
+
+  1. Run `npm run eject`
+  2. Go to `webpack.config.dev.js`, find for `css-loader` and change the `options` like this:
+
+  ```javascript
+  options: {
+    importedLoaders: 1,
+    modules: true,
+    localIdentName: '[name]__[local]__[hash:base64:5]' // this is for setting unique names for css classes
+  }
+  ```
