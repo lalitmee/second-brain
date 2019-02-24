@@ -13,3 +13,13 @@
   This is an event which is called from a button when the button is clicked
 
 - When **React** updates the **DOM**, it **renders** the whole **component** again. It means the render function runs again inside the code.
+
+- Don't operate directly on the arrays or objects because it changes the whole state arrays or objects. We can do this:
+
+  ```javascript
+  deletePersonHandler = personIndex => {
+    const persons = this.state.persons.slice(); // slice() without arguments copies the whole array
+    persons.splice(personIndex, 1);
+    this.setState({ persons: persons });
+  };
+  ```
