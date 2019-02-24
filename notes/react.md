@@ -18,7 +18,12 @@
 
   ```javascript
   deletePersonHandler = personIndex => {
-    const persons = this.state.persons.slice(); // slice() without arguments copies the whole array
+    // slice() without arguments copies the whole array
+    const persons = this.state.persons.slice();
+
+    // or we can use spread operator like this:
+    const persons = [...this.state.persons];
+
     persons.splice(personIndex, 1);
     this.setState({ persons: persons });
   };
