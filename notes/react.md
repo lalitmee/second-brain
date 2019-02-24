@@ -41,3 +41,5 @@
     localIdentName: '[name]__[local]__[hash:base64:5]' // this is for setting unique names for css classes
   }
   ```
+
+  3. Now copy the same `options` to the file `webpack.config.prod.js`, don't override the things which are already there.
