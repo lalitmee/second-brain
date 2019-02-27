@@ -11,3 +11,7 @@
     background-color: $default-background-color;
   }
   ```
+
+# Angular Best Practices
+
+- [Code Maze Article](https://code-maze.com/angular-best-practices/) for Angular's Best Practices.
