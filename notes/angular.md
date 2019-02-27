@@ -2,7 +2,7 @@
 
 - Add any **css** to the component tag from the component's css file
 
-  ```
+  ```css
   :host {
     display: block;
     width: 100%;
