@@ -14,4 +14,7 @@
 
 # Angular Best Practices
 
-- [Code Maze Article](https://code-maze.com/angular-best-practices/) for Angular's Best Practices.
+## Articles
+
+- [Code Maze Article](https://code-maze.com/angular-best-practices/)
+- [FreeCodeCamp Article](https://medium.freecodecamp.org/best-practices-for-a-clean-and-performant-angular-application-288e7b39eb6f)
