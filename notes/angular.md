@@ -14,6 +14,45 @@
 
 # Angular Best Practices
 
+## Must be Done
+
+- Aliases for Imports
+
+  Creating aliases for imports is a plus. We may use imports three folders deep sometimes, so the following import is not the ideal solution:
+
+  ```typescript
+  import { LoaderService } from '../../../loader/loader.service';
+  ```
+
+  Add the following piece of code into tsconfig.json file to make your imports short and well organized across the app:
+
+  ```typescript
+  {
+    "compileOnSave": false,
+    "compilerOptions": {
+      removed for brevity,
+      "paths": {
+        "@app/*": ["app/*"],
+        "@env/*": ["environments/*"]
+      }
+    }
+  }
+  ```
+
+  When you’re done, these imports
+
+  ```typescript
+  import { LoaderService } from '../../../loader/loader.service';
+  import { environment } from '../../environment’;
+  ```
+
+  should be refactored into these:
+
+  ```typescript
+  import { LoaderService } from '@app/loader/loader.service';
+  import { environment } from '@env/environment’;
+  ```
+
 ## Articles
 
 - [Code Maze Article](https://code-maze.com/angular-best-practices/)
