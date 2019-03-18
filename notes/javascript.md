@@ -36,3 +36,13 @@
       return item.listeners.length;
     });
   ```
+
+- For removing duplicates from an Array
+
+  ```javascript
+  function removeDuplicates(myArr, prop) {
+    return myArr.filter((obj, pos, arr) => {
+      return arr.map(mapObj => mapObj[prop]).indexOf(obj[prop]) === pos;
+    });
+  }
+  ```
