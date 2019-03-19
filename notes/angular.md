@@ -11,6 +11,12 @@
     background-color: $default-background-color;
   }
   ```
+  
+- For adding **ngStyle** use this syntax:
+
+  ```html
+  <some-element [ngStyle]="{'font-style': styleExp}"></some-element>
+  ```
 
 # Angular Best Practices
 
