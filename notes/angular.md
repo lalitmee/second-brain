@@ -61,6 +61,7 @@
 
 ## Articles
 
-- [Code Maze Article](https://code-maze.com/angular-best-practices/)
+- [Code Maze Article](https://code-maze.com/angular-best-practices)
 - [FreeCodeCamp Article](https://medium.freecodecamp.org/best-practices-for-a-clean-and-performant-angular-application-288e7b39eb6f)
 - [Noteworthy Medium Article](https://blog.usejournal.com/best-practices-for-writing-angular-6-apps-e6d3c0f6c7c1)
+- [Exploring the Various Decorators in Angular](https://netbasal.com/exploring-the-various-decorators-in-angular-b208875b207c)
