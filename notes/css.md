@@ -111,7 +111,9 @@
 - For making the text with three dots when it is larger than the element or div
 
   ```css
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
+  .text-truncate {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
   ```
