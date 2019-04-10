@@ -18,7 +18,7 @@
   console.log('Call to recalculateFloat took ' + (t1 - t0) + ' milliseconds.');
   ```
 
-- For checking all the Event Listeners on the Page in Google Chrome:
+- For checking all the **Event Listeners** on the Page in **Google Chrome**:
 
   ```javascript
   const items = Array.prototype.slice
@@ -37,7 +37,7 @@
     });
   ```
 
-- For removing duplicates from an Array
+- For removing _duplicates_ from an _Array_
 
   ```javascript
   function removeDuplicates(myArr, prop) {
@@ -47,15 +47,14 @@
   }
   ```
 
-- For checking if an _Object_ is _Empty_ or not
+- For checking if an **Object** is **Empty** or not
 
-  ```
+  ```javascript
   function isEmpty(obj) {
-      for(var key in obj) {
-          if(obj.hasOwnProperty(key))
-              return false;
-      }
-      return true;
+    for (var key in obj) {
+      if (obj.hasOwnProperty(key)) return false;
+    }
+    return true;
   }
   ```
 
