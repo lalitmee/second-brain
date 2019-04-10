@@ -47,6 +47,18 @@
   }
   ```
 
+- For checking if an _Object_ is _Empty_ or not
+
+  ```
+  function isEmpty(obj) {
+      for(var key in obj) {
+          if(obj.hasOwnProperty(key))
+              return false;
+      }
+      return true;
+  }
+  ```
+
 # Articles
 
 - [Javascript- Currying VS Partial Application](https://codeburst.io/javascript-currying-vs-partial-application-4db5b2442be8)
