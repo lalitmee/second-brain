@@ -70,3 +70,7 @@
 # Articles
 
 - [Javascript- Currying VS Partial Application](https://codeburst.io/javascript-currying-vs-partial-application-4db5b2442be8)
+
+# Websites
+
+- [Javascript Info Website](https://javascript.info/)
