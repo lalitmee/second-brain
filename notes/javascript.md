@@ -60,6 +60,13 @@
   }
   ```
 
+- For removing the **truncated zeros** from the begining of a **Number**
+
+  ```javascript
+  var yourString = '00001';
+  yourString = Number(yourString).toString(); // output => "1"
+  ```
+
 # Articles
 
 - [Javascript- Currying VS Partial Application](https://codeburst.io/javascript-currying-vs-partial-application-4db5b2442be8)
