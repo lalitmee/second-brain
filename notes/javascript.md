@@ -67,6 +67,14 @@
   yourString = Number(yourString).toString(); // output => "1"
   ```
 
+  - This method can also be applied for changing the percentage with decimal points
+
+    ```javascript
+    // input = 0.00, output = "0"
+    // input = 1.31, output = "1.31"
+    const number = Number(percent).toString();
+    ```
+
 # Articles
 
 - [Javascript- Currying VS Partial Application](https://codeburst.io/javascript-currying-vs-partial-application-4db5b2442be8)
