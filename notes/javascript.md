@@ -99,6 +99,7 @@
 # GitHub Repositories
 
 - [clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)
+- [bxjs-weekly](https://github.com/BuildingXwithJS/bxjs-weekly)
 
 # Articles
 
