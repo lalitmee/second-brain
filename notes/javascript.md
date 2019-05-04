@@ -81,17 +81,17 @@
 
   **Bad:**
 
-  ```
+  ```javascript
   function createMicrobrewery(name) {
-  const breweryName = name || "Hipster Brew Co.";
-  // ...
+    const breweryName = name || 'Hipster Brew Co.';
+    // ...
   }
   ```
 
   **Good:**
 
-  ```
-  function createMicrobrewery(name = "Hipster Brew Co.") {
+  ```javascript
+  function createMicrobrewery(name = 'Hipster Brew Co.') {
     // ...
   }
   ```
