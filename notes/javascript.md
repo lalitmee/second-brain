@@ -100,6 +100,7 @@
 
 - [clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)
 - [bxjs-weekly](https://github.com/BuildingXwithJS/bxjs-weekly)
+- [Airbnb Javascript Style Guide](https://github.com/airbnb/javascript)
 
 # Articles
 
