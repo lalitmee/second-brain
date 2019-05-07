@@ -116,4 +116,13 @@
     white-space: nowrap;
     text-overflow: ellipsis;
   }
+
+  /* this also works in this display: block is important*/
+  .text-with-dots {
+    display: block;
+    max-width: 98%;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+  }
   ```
