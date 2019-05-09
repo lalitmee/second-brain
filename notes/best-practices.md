@@ -1,6 +1,6 @@
 # Best Practices
 
-- Loops
+- **Loops**
 
   Yes, loops are faster. map/reduce/filter can have method call overhead (sometimes not, if the function gets inlined by the JIT engine), and have a bunch of other overhead to handle obscure corner cases like sparse arrays and getters.
 
