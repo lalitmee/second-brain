@@ -109,6 +109,42 @@
   }
   ```
 
+- Allow only `one Minus` and `numbers` in `input` type `text`
+
+  ```html
+  <input type="text" maxlength="10" id="myInput" />
+  ```
+
+  ```javascript
+  var input = document.getElementById('myInput');
+
+  input.onkeypress = function(e) {
+    e = e || window.event;
+    var charCode = typeof e.which == 'number' ? e.which : e.keyCode;
+
+    // Allow non-printable keys
+    if (!charCode || charCode == 8 /* Backspace */) {
+      fd;
+      return;
+    }
+
+    var typedChar = String.fromCharCode(charCode);
+
+    // Allow numeric characters
+    if (/\d/.test(typedChar)) {
+      return;
+    }
+
+    // Allow the minus sign (-) if the user enters it first
+    if (typedChar == '-' && this.value == '') {
+      return;
+    }
+
+    // In all other cases, suppress the event
+    return false;
+  };
+  ```
+
 # GitHub Repositories
 
 - [clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)
