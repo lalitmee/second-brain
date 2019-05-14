@@ -118,6 +118,7 @@
 # Articles
 
 - [Javascript- Currying VS Partial Application](https://codeburst.io/javascript-currying-vs-partial-application-4db5b2442be8)
+- [An Intro to Javascript for Experienced Programmers Who Could Use a Strong Dose of Fundamentals](https://medium.com/better-programming/an-intro-to-javascript-for-experienced-programmers-who-could-use-a-strong-dose-of-fundamentals-31535030616b)
 
 # Websites
 
