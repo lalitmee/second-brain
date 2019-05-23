@@ -126,3 +126,13 @@
     text-overflow: ellipsis;
   }
   ```
+
+- Font Sizes
+
+  Alwasy use `rem` for setting the font size in the css by defining a root size in your css like
+
+  ```css
+  html {
+    font-size: 16px;
+  }
+  ```
