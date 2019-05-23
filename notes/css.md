@@ -129,10 +129,25 @@
 
 - Font Sizes
 
-  Alwasy use `rem` for setting the font size in the css by defining a root size in your css like
+  - Alwasy use `rem` for setting the font size in the css by defining a root size in your css like
+
+    ```css
+    html {
+      font-size: 16px;
+    }
+    ```
+
+  - If `em` is set to any property other than `font-size`, it will refer to the `font-size` of that element.
+    We should use something like this:
 
   ```css
-  html {
-    font-size: 16px;
+  .button_class {
+    display: inline-block;
+    color: inherit;
+    text-decoration: none;
+    padding: 0.5em 1.5em; // padding in em
+    background: white;
+    transition: background 250ms;
+    font-size: 1rem; // font-size in rem
   }
   ```
