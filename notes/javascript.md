@@ -145,6 +145,15 @@
   };
   ```
 
+- Capitalize first letter of every word or the String:
+
+  ```javascript
+  const capitalize = s => {
+    if (typeof s !== 'string') return '';
+    return s.charAt(0).toUpperCase() + s.slice(1);
+  };
+  ```
+
 # GitHub Repositories
 
 - [clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)
