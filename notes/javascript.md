@@ -1,12 +1,12 @@
 # JavaScript
 
-- For making a **NodeList** an **Array**
+- #### For making a `NodeList` an `Array`
 
   ```javascript
   var nodesArray = [].slice.call(document.querySelectorAll('div'));
   ```
 
-- For checking any **function execution time**, use something like this:
+- #### For checking any `function execution time`, use something like this:
 
   ```javascript
   const t0 = performance.now();
@@ -18,7 +18,7 @@
   console.log('Call to recalculateFloat took ' + (t1 - t0) + ' milliseconds.');
   ```
 
-- For checking all the **Event Listeners** on the Page in **Google Chrome**:
+- #### For checking all the `Event Listeners` on the Page in `Google Chrome`:
 
   ```javascript
   const items = Array.prototype.slice
@@ -37,7 +37,7 @@
     });
   ```
 
-- For removing _duplicates_ from an _Array_
+- #### For removing `duplicates` from an `Array`
 
   ```javascript
   function removeDuplicates(myArr, prop) {
@@ -47,7 +47,7 @@
   }
   ```
 
-- For checking if an **Object** is **Empty** or not
+- #### For checking if an `Object` is `Empty` or not
 
   ```javascript
   function isEmpty(obj) {
@@ -60,7 +60,7 @@
   }
   ```
 
-- For removing the **truncated zeros** from the begining of a **Number**
+- #### For removing the `truncated zeros` from the begining of a `Number`
 
   ```javascript
   var yourString = '00001';
@@ -75,7 +75,7 @@
     const number = Number(percent).toString();
     ```
 
-- Use default arguments instead of short circuiting or conditionals
+- #### Use `default arguments` instead of `short circuiting or conditionals`
 
   Default arguments are often cleaner than short circuiting. Be aware that if you use them, your function will only provide default values for undefined arguments. Other "falsy" values such as '', "", false, null, 0, and NaN, will not be replaced by a default value.
 
@@ -96,7 +96,7 @@
   }
   ```
 
-- Allowing only Integers Value in Input Type Number
+- #### Allowing only Integers Value in Input Type Number
 
   ```javascript
   doNotAllowDecimal(e) {
@@ -109,7 +109,7 @@
   }
   ```
 
-- Allow only `one Minus` and `numbers` in `input` type `text`
+- #### Allow only `one Minus` and `numbers` in `input` type `text`
 
   ```html
   <input type="text" maxlength="10" id="myInput" />
@@ -145,7 +145,7 @@
   };
   ```
 
-- Capitalize first letter of every word or the String:
+- #### Capitalize `first letter` of every word or the `String`:
 
   ```javascript
   const capitalize = s => {
@@ -153,6 +153,30 @@
     return s.charAt(0).toUpperCase() + s.slice(1);
   };
   ```
+
+- #### Moment.js warning of deprecation
+
+  To get rid of the warning, you need to either:
+
+  - Pass in an `ISO formatted version` of your date string:
+
+    ```javascript
+    moment('2014-04-23T09:54:51');
+    ```
+
+  - Pass in the string you have now, but tell Moment what format the string is in:
+
+    ```javascript
+    moment('Wed, 23 Apr 2014 09:54:51 +0000', 'ddd, DD MMM YYYY HH:mm:ss ZZ');
+    ```
+
+  - Convert your string to a `JavaScript Date object` and then pass that into Moment:
+
+    ```javascript
+    moment(new Date('Wed, 23 Apr 2014 09:54:51 +0000'));
+    ```
+
+  The last option is a built-in fallback that Moment supports for now, with the deprecated console warning. They say they won't support this fallback in future releases. They explain that using new Date('my date') is too unpredictable.
 
 # GitHub Repositories
 
