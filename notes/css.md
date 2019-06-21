@@ -151,3 +151,13 @@
     font-size: 1rem; // font-size in rem
   }
   ```
+
+- For **Border Radius of the Input**
+
+  ```css
+  input:focus {
+    outline: none;
+    border: 1px solid #02b3e4;
+    box-shadow: 5px 5px 10px 0 rgba(46, 61, 73, 0.05);
+  }
+  ```
