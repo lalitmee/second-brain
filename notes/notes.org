@@ -1,0 +1,402 @@
+* Notes
+** Vim
+*** Productivity
+For making *ctags* in the current directory and ignore *node_modules* and saving
+tags in *.git* folder
+
+#+BEGIN_SRC bash
+  ctags -R --exclude=.git -exclude=node_modules -f ./git/tags .
+#+END_SRC
+** HTML
+*** Input
+For showing the accepted file types in HTML file input
+#+BEGIN_SRC html
+<input type="file" accept="text/xml" />
+#+END_SRC
+For more types, refer to this [[https://www.iana.org/assignments/media-types/media-types.xhtml][link]]
+** CSS
+*** Defaults
+#+BEGIN_SRC css
+  *,
+  *:after,
+  *:before {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+    position: relative;
+    outline: none;
+  }
+#+END_SRC
+***  Change the scrollbar design
+#+BEGIN_SRC css
+  &::-webkit-scrollbar {
+    width: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    -webkit-border-radius: 100px;
+  }
+
+  &::-webkit-scrollbar:hover {
+    background-color: rgba(0, 0, 0, 0.09);
+  }
+
+  &::-webkit-scrollbar-thumb:vertical {
+    background: rgba(0, 0, 0, 0.5);
+    -webkit-border-radius: 100px;
+    background-clip: padding-box;
+    border: 2px solid rgba(0, 0, 0, 0);
+    min-height: 10px;
+  }
+
+  &::-webkit-scrollbar-thumb:vertical:active {
+    background: rgba(0, 0, 0, 0.61);
+    -webkit-border-radius: 100px;
+  }
+#+END_SRC
+*** Box-shadow on the ng-select after clicking
+#+begin_src css
+  .ui-dropdown.ui-state-focus,
+  .ui-multiselect.ui-state-focus {
+    box-shadow: none !important;
+  }
+#+end_src
+*** Text Gradient Color from CSS Tricks
+#+begin_src css
+  .read-more {
+    background: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(#ff8a00),
+      to(#da1b60)
+    );
+    background: linear-gradient(to right, #ff8a00, #da1b60);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    font-weight: 700;
+  }
+#+end_src
+*** Awesome Button Styles on Hover
+[[https://tympanus.net/Development/ButtonStylesInspiration/][Link to the Website]]
+*** For aligning something *Horizontally* and *Vertically* in center
+Put that anything inside a *div* and give this *css* to that div:
+#+begin_src css
+    .div {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+    }
+#+end_src
+*** For Lists
+Making bullets of lists padded according to the text for the new line
+#+begin_src css
+    ul {
+      list-style-position: outside;
+    }
+#+end_src
+
+See this[[https://github.com/lalitmee/dNotes/blob/master/images/list-item-padded.png?raw=true
+][ Image ]]
+See this [[http://jsfiddle.net/4rnNK/1/][JS Fiddle]] too
+*** For making the text with three dots when it is larger than the element or div
+#+begin_src css
+  .text-truncate {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  /* this also works in this display: block is important*/
+  .text-with-dots {
+    display: block;
+    max-width: 98%;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+  }
+#+end_src
+*** Font Sizes
+**** Alwasy use *rem* for setting the font size in the css by defining a root size in your css like
+#+begin_src css
+    html {
+      font-size: 16px;
+    }
+#+end_src
+**** If *em* is set to any property other than *font-size*, it will refer to the *font-size* of that element.
+    We should use something like this:
+#+begin_src css
+  .button_class {
+    display: inline-block;
+    color: inherit;
+    text-decoration: none;
+    padding: 0.5em 1.5em; // padding in em
+    background: white;
+    transition: background 250ms;
+    font-size: 1rem; // font-size in rem
+  }
+#+end_src
+*** For *Border Radius of the Input*
+#+begin_src css
+  input:focus {
+    outline: none;
+    border: 1px solid #02b3e4;
+    box-shadow: 5px 5px 10px 0 rgba(46, 61, 73, 0.05);
+  }
+#+end_src
+** JavaScript
+*** Notes
+**** For making a NodeList an Array
+#+begin_src javascript
+  var nodesArray = [].slice.call(document.querySelectorAll('div'));
+#+end_src
+**** For checking any function execution time, use something like this
+#+begin_src javascript
+  const t0 = performance.now();
+
+  // function for which the time to be calculated
+  const updatedTasks = recalculateFloat(gantt);
+
+  const t1 = performance.now();
+  console.log('Call to recalculateFloat took ' + (t1 - t0) + ' milliseconds.');
+#+end_src
+**** For checking all the Event Listeners on the Page in Google Chrome
+#+begin_src javascript
+  const items = Array.prototype.slice
+    .call(document.querySelectorAll('*'))
+    .map(function(element) {
+      const listeners = getEventListeners(element);
+      return {
+        element: element,
+        listeners: Object.keys(listeners).map(function(k) {
+          return { event: k, listeners: listeners[k] };
+        })
+      };
+    })
+    .filter(function(item) {
+      return item.listeners.length;
+    });
+#+end_src
+**** For removing duplicates from an Array
+#+begin_src javascript
+  function removeDuplicates(myArr, prop) {
+    return myArr.filter((obj, pos, arr) => {
+      return arr.map(mapObj => mapObj[prop]).indexOf(obj[prop]) === pos;
+    });
+  }
+#+end_src
+**** For checking if an Object is Empty or not
+#+begin_src javascript
+  function isEmpty(obj) {
+    for (var key in obj) {
+      if (obj.hasOwnProperty(key)) {
+        return false;
+      }
+    }
+    return true;
+  }
+#+end_src
+**** For removing the truncated zeroes from the begining of a Number
+#+begin_src javascript
+  var yourString = '00001';
+  yourString = Number(yourString).toString(); // output => "1"
+#+end_src
+**** This method can also be applied for changing the percent with decimal points
+#+begin_src javascript
+    // input = 0.00, output = "0"
+    // input = 1.31, output = "1.31"
+    const number = Number(percent).toString();
+#+end_src
+**** Use default arguments instead of short circuiting or conditionals
+  Default arguments are often cleaner than short circuiting. Be aware that if you use them, your function will only provide default values for undefined arguments. Other "falsy" values such as '', "", false, null, 0, and NaN, will not be replaced by a default value.
+***** Bad
+#+begin_src javascript
+  function createMicrobrewery(name) {
+    const breweryName = name || 'Hipster Brew Co.';
+    // ...
+  }
+#+end_src
+***** Good
+#+begin_src javascript
+  function createMicrobrewery(name = 'Hipster Brew Co.') {
+    // ...
+  }
+#+end_src
+**** Allowing only Integers Value in Input Type Number
+#+begin_src javascript
+  doNotAllowDecimal(e) {
+    if (
+      (e.shiftKey || (e.keyCode < 48 || e.keyCode > 57)) &&
+      (e.keyCode < 96 || e.keyCode > 105)
+    ) {
+      e.preventDefault();
+    }
+  }
+#+end_src
+**** Allow only one Minus and numbers in input type text
+#+begin_src html
+  <input type="text" maxlength="10" id="myInput" />
+#+end_src
+
+#+begin_src javascript
+  var input = document.getElementById('myInput');
+
+  input.onkeypress = function(e) {
+    e = e || window.event;
+    var charCode = typeof e.which == 'number' ? e.which : e.keyCode;
+
+    // Allow non-printable keys
+    if (!charCode || charCode == 8 /* Backspace */) {
+      fd;
+      return;
+    }
+
+    var typedChar = String.fromCharCode(charCode);
+
+    // Allow numeric characters
+    if (/\d/.test(typedChar)) {
+      return;
+    }
+
+    // Allow the minus sign (-) if the user enters it first
+    if (typedChar == '-' && this.value == '') {
+      return;
+    }
+
+    // In all other cases, suppress the event
+    return false;
+  };
+#+end_src
+**** Capitalize first letter of every word or the String
+#+begin_src javascript
+  const capitalize = s => {
+    if (typeof s !== 'string') return '';
+    return s.charAt(0).toUpperCase() + s.slice(1);
+  };
+#+end_src
+**** Moment.js warning of deprecation
+  To get rid of the warning, you need to either:
+***** Pass in an ISO formatted version of your date string
+#+begin_src javascript
+    moment('2014-04-23T09:54:51');
+#+end_src
+***** Pass in the string you have now, but tell Moment what format the string is in
+#+begin_src javascript
+    moment('Wed, 23 Apr 2014 09:54:51 +0000', 'ddd, DD MMM YYYY HH:mm:ss ZZ');
+#+end_src
+***** Convert your string to a JavaScript Date Object and then pass that into Moment
+#+begin_src javascript
+    moment(new Date('Wed, 23 Apr 2014 09:54:51 +0000'));
+#+end_src
+***** The last option is a built-in fallback that Moment supports for now, with the deprecated console warning. They say they won't support this fallback in future releases. They explain that using new Date('my date') is too unpredictable.
+*** GitHub Repositories
+**** [[https://github.com/ryanmcdermott/clean-code-javascript][clean-code-javascript]]
+**** [[https://github.com/BuildingXwithJS/bxjs-weekly][bxjs-weekly]]
+**** [[https://github.com/airbnb/javascript][Airbnb JavaScript Style Guide]]
+*** Articles
+**** [[https://codeburst.io/javascript-currying-vs-partial-application-4db5b2442be8][Javascript- Currying VS Partial Application]]
+**** [[https://medium.com/better-programming/an-intro-to-javascript-for-experienced-programmers-who-could-use-a-strong-dose-of-fundamentals-31535030616b][An Intro to Javascript for Experienced Programmers Who Could Use a Strong Dose of Fundamentals]]
+*** Websites
+**** [[https://javascript.info/][Javascript Info Website]]
+** Best Practices
+*** Loops
+  Yes, loops are faster. map/reduce/filter can have method call overhead (sometimes not, if the function gets inlined by the JIT engine), and have a bunch of other overhead to handle obscure corner cases like sparse arrays and getters.
+  There are even libraries that reimplement map/filter/reduce for the sole purpose of providing faster drop-in alternatives to those methods.
+  However, beware that loops that declare variables using var share context between iterations, which can be a source of bugs if creating closures within the loop
+#+begin_src javascript
+  for (var i = 0; i < elements.length; i++) {
+    elements[i].onclick = function() {
+      alert(i); // bug: i is always elements.length
+    };
+  }
+#+end_src
+  Another thing that is worth mentioning: there are old articles around the web benchmarking several convoluted ways of writing loops (caching length, reverse while loops, etc). These days, performance-wise, those techniques are obsolete, because JIT engines are now smart enough to correctly optimize idiomatic loops. If you're using loops, always use them idiomatically.
+  Anyone that tells you to prefer map/reduce/filter is coming from the point of view of maintainability: map/reduce/filter are generally less "noisy" (read: they don't explicitly require a i++), though frankly, both map/reduce/filter loops and for loops are quite readable and maintainable (see e.g. lodash source code).
+  I'm going to against the grain here and say: don't waste time "profiling" for loops vs map/filter/reduce. For loops are faster. Period.
+  With that being said, loop mechanics are likely the last thing you need to optimize. First you should look into algorithms to reduce the complexity of your operation (e.g. sometimes it's more efficient to use a hashmap for its fast lookup properties than an doing a linear scan of an array multiple times); second, seek to pull things out of loops (e.g. sometimes doing a step unconditionally to all items and undoing it once is faster than testing for the condition on every iteration, sometimes you can memoize parts of the loop body, etc); third, look for ways to reduce the cost of the loop body, e.g. break/continue early rather than late, simplify convoluted if/else branches, memoize, etc.
+  When doing these other optimizations, then do profile. Unless you're writing a library that is highly sensitive to performance (e.g. a virtuam dom library), don't waste time optimizing if you don't actually perceive any benefits to doing so. Most important of all, if you're sacrificing idiomaticness for performance, alarms should be ringing in your head.
+** React
+*** Maximilian Tutorial Notes
+**** We should name the *event handlers* with the name *handlers* in those events. For example:
+#+begin_src javascript
+  switchNameHandler = () => {
+    console.log('Was clicked');
+  };
+#+end_src
+  This is an event which is called from a button when the button is clicked
+**** When *React* updates the *DOM*, it *renders* the whole *component* again. It means the render function runs again inside the code.
+**** Don't operate directly on the arrays or objects because it changes the whole state arrays or objects. We can do this:
+#+begin_src javascript
+  ```javascript
+  deletePersonHandler = personIndex => {
+    // slice() without arguments copies the whole array
+    const persons = this.state.persons.slice();
+
+    // or we can use spread operator like this:
+    const persons = [...this.state.persons];
+
+    persons.splice(personIndex, 1);
+    this.setState({ persons: persons });
+    }
+#+end_src
+** Angular
+*** Notes
+**** Add any *css* to the component tag from the component's css file
+#+begin_src css
+  :host {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    background-color: $default-background-color;
+  }
+#+end_src
+**** For adding ~ngStyle~ use this syntax:
+#+begin_src html
+  <some-element [ngStyle]="{'font-style': styleExp}"></some-element>
+#+end_src
+*** Best Practices
+**** Aliases for Imports
+  Creating aliases for imports is a plus. We may use imports three folders deep sometimes, so the following import is not the ideal solution:
+#+begin_src typescript
+  import { LoaderService } from '../../../loader/loader.service';
+#+end_src
+
+  Add the following piece of code into tsconfig.json file to make your imports short and well organized across the app:
+#+begin_src json
+  {
+    "compileOnSave": false,
+    "compilerOptions": {
+      "paths": {
+        "@app/*": ["app/*"],
+        "@env/*": ["environments/*"]
+      }
+    }
+  }
+#+end_src
+
+When you're done, these import
+#+begin_src typescript
+  import { LoaderService } from '../../../loader/loader.service';
+  import { environment } from '../../environment’;
+#+end_src
+
+should be refactored into these:
+#+begin_src typescript
+  import { LoaderService } from '@app/loader/loader.service';
+  import { environment } from '@env/environment’;
+#+end_src
+*** Articles
+**** [[https://code-maze.com/angular-best-practices][Code Maze Article]]
+**** [[https://medium.freecodecamp.org/best-practices-for-a-clean-and-performant-angular-application-288e7b39eb6f][FreeCodeCamp Article]]
+**** [[https://blog.usejournal.com/best-practices-for-writing-angular-6-apps-e6d3c0f6c7c1][Noteworthy Medium Article]]
+**** [[https://netbasal.com/exploring-the-various-decorators-in-angular-b208875b207c][Exploring the Various Decorators in Angular]]
