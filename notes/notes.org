@@ -105,8 +105,9 @@ Making bullets of lists padded according to the text for the new line
     }
 #+end_src
 
-See this[[https://github.com/lalitmee/dNotes/blob/master/images/list-item-padded.png?raw=true
-][ Image ]]
+See this 
+[[https://github.com/lalitmee/dNotes/blob/master/images/list-item-padded.png?raw=true]]
+
 See this [[http://jsfiddle.net/4rnNK/1/][JS Fiddle]] too
 *** For making the text with three dots when it is larger than the element or div
 #+begin_src css
