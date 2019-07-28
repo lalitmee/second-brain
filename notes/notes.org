@@ -1,3 +1,8 @@
+#+TITLE: NOTES
+#+AUTHOR: Lalit Kumar
+#+EMAIL: lalitkumar.meena.lk@gmail.com
+#+OPTIONS: toc:nil
+
 * Notes
 ** Vim
 *** Productivity
