@@ -370,6 +370,10 @@ See this [[http://jsfiddle.net/4rnNK/1/][JS Fiddle]] too
 #+begin_src html
   <some-element [ngStyle]="{'font-style': styleExp}"></some-element>
 #+end_src
+**** The simplest way is to cast the return of getElementsByClassName:
+#+begin_src typescript
+let floorElements = document.getElementsByClassName("floor") as HTMLCollectionOf<HTMLElement>;
+#+end_src
 *** Best Practices
 **** Aliases for Imports
   Creating aliases for imports is a plus. We may use imports three folders deep sometimes, so the following import is not the ideal solution:
