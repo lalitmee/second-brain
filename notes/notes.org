@@ -410,3 +410,9 @@ should be refactored into these:
 **** [[https://medium.freecodecamp.org/best-practices-for-a-clean-and-performant-angular-application-288e7b39eb6f][FreeCodeCamp Article]]
 **** [[https://blog.usejournal.com/best-practices-for-writing-angular-6-apps-e6d3c0f6c7c1][Noteworthy Medium Article]]
 **** [[https://netbasal.com/exploring-the-various-decorators-in-angular-b208875b207c][Exploring the Various Decorators in Angular]]
+** Lubuntu
+*** Configuration Settings
+**** Keyboard Shortcuts
+***** Links
+- [[https://ubuntuforums.org/showthread.php?t=1422861][Is there a way to have keyboard shortcuts in Lubuntu]]
+
