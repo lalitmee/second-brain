@@ -415,4 +415,6 @@ should be refactored into these:
 **** Keyboard Shortcuts
 ***** Links
 - [[https://ubuntuforums.org/showthread.php?t=1422861][Is there a way to have keyboard shortcuts in Lubuntu]]
+**** Caps Lock to Escape
+[[https://askubuntu.com/questions/363346/how-to-permanently-switch-caps-lock-and-esc][How to permanently switch Caps Lock and Esc]]
 
