@@ -560,93 +560,93 @@ should be refactored into these:
 ** IRC
 *** Channels
 **** General
-##cars
-##chat
-##truth
-#news
+- ##cars
+- ##chat
+- ##truth
+- #news
 
 **** Subjects
-##English
-##chemistry
-##electronics
-##math
-##physics
-##science
+- ##English
+- ##chemistry
+- ##electronics
+- ##math
+- ##physics
+- ##science
 
 **** Languages
-##c++
-##c++-basic
-##c++-general
-##java
-##javascript
-##php
-##python
-##rust
-##rust
-#R
-#RubyOnRails
-#clojure
-#css
-#css-overflow
-#erlang
-#go-nuts
-#haskell
-#haskell-beginners
-#html
-#latex
-#lisp
-#lua
-#ocaml
-#perl
-#python-dev
-#ruby
-#scala
-#swift-lang
-#typescript
+- ##c++
+- ##c++-basic
+- ##c++-general
+- ##java
+- ##javascript
+- ##php
+- ##python
+- ##rust
+- ##rust
+- #R
+- #RubyOnRails
+- #clojure
+- #css
+- #css-overflow
+- #erlang
+- #go-nuts
+- #haskell
+- #haskell-beginners
+- #html
+- #latex
+- #lisp
+- #lua
+- #ocaml
+- #perl
+- #python-dev
+- #ruby
+- #scala
+- #swift-lang
+- #typescript
 
 **** Frameworks
-#angular
-#django
-#reactjs
-
+- #angular
+- #django
+- #reactjs
+ 
 **** Shells
-#bash
-#fish
-#zsh
-
+- #bash
+- #fish
+- #zsh
+ 
 **** Applications
-#mpv
-#pluseaudio
-#qt-creator
-#telegram-foss
-#videolan
-
+- #mpv
+- #pluseaudio
+- #qt-creator
+- #telegram-foss
+- #videolan
+ 
 **** System
-#archlinux
-#debian
-#debian-offtopic
-#kubuntu
-#systemd
-#ubuntu
-#ubuntu-desktop
-#ubuntu-devel
-#ubuntu-meeting
-#ubuntu-offtopic
-#xfce
-
+- #archlinux
+- #debian
+- #debian-offtopic
+- #kubuntu
+- #systemd
+- #ubuntu
+- #ubuntu-desktop
+- #ubuntu-devel
+- #ubuntu-meeting
+- #ubuntu-offtopic
+- #xfce
+ 
 **** Knowledge
-#textual
-#wikipedia
-#wikipedia-en
-
+- #textual
+- #wikipedia
+- #wikipedia-en
+ 
 **** Computer Science
-##algorithms
-##programming
-##programminglanguages
-
+- ##algorithms
+- ##programming
+- ##programminglanguages
+ 
 **** Servers
-##aws
-
+- ##aws
+ 
 * Quotes
 ** Dinah Shore: “Trouble is part of your life, and if you don't share it, you don't give the person who loves you a chance to love you enough.”
 
