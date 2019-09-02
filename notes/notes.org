@@ -557,6 +557,95 @@ should be refactored into these:
 - [[https://ubuntuforums.org/showthread.php?t=1422861][Is there a way to have keyboard shortcuts in Lubuntu]]
 **** Caps Lock to Escape
 [[https://askubuntu.com/questions/363346/how-to-permanently-switch-caps-lock-and-esc][How to permanently switch Caps Lock and Esc]]
+** IRC
+*** Channels
+**** General
+##cars
+##chat
+##truth
+#news
+
+**** Subjects
+##English
+##chemistry
+##electronics
+##math
+##physics
+##science
+
+**** Languages
+##c++
+##c++-basic
+##c++-general
+##java
+##javascript
+##php
+##python
+##rust
+##rust
+#R
+#RubyOnRails
+#clojure
+#css
+#css-overflow
+#erlang
+#go-nuts
+#haskell
+#haskell-beginners
+#html
+#latex
+#lisp
+#lua
+#ocaml
+#perl
+#python-dev
+#ruby
+#scala
+#swift-lang
+#typescript
+
+**** Frameworks
+#angular
+#django
+#reactjs
+
+**** Shells
+#bash
+#fish
+#zsh
+
+**** Applications
+#mpv
+#pluseaudio
+#qt-creator
+#telegram-foss
+#videolan
+
+**** System
+#archlinux
+#debian
+#debian-offtopic
+#kubuntu
+#systemd
+#ubuntu
+#ubuntu-desktop
+#ubuntu-devel
+#ubuntu-meeting
+#ubuntu-offtopic
+#xfce
+
+**** Knowledge
+#textual
+#wikipedia
+#wikipedia-en
+
+**** Computer Science
+##algorithms
+##programming
+##programminglanguages
+
+**** Servers
+##aws
 
 * Quotes
 ** Dinah Shore: “Trouble is part of your life, and if you don't share it, you don't give the person who loves you a chance to love you enough.”
