@@ -564,6 +564,10 @@ should be refactored into these:
 - ##chat
 - ##truth
 - #news
+ 
+**** Technical
+- #hackernews
+- #web
 
 **** Subjects
 - ##English
@@ -572,6 +576,7 @@ should be refactored into these:
 - ##math
 - ##physics
 - ##science
+- ##statistics
 
 **** Languages
 - ##c++
@@ -622,10 +627,28 @@ should be refactored into these:
 - #videolan
  
 **** System
+- ##hackers
+- ##hardware
+- ##openssl
+- ##windows
 - #archlinux
+- #darktable
 - #debian
 - #debian-offtopic
+- #fedora
+- #ffmpeg
+- #gamingonlinux
+- #gcc
+- #gnome
+- #gnu
+- #grub
+- #i3
+- #kodi
 - #kubuntu
+- #launchpad
+- #lxcontainers
+- #macosx
+- #openssh
 - #systemd
 - #ubuntu
 - #ubuntu-desktop
@@ -633,7 +656,11 @@ should be refactored into these:
 - #ubuntu-meeting
 - #ubuntu-offtopic
 - #xfce
+- #youtube-dl
  
+**** Chat
+- #bitcoinchat
+
 **** Knowledge
 - #textual
 - #wikipedia
@@ -646,6 +673,10 @@ should be refactored into these:
  
 **** Servers
 - ##aws
+- #docker
+- #google-containers
+- #kubernetes
+- #nginx
 ** Command Line
 *** Useful Commands
 **** inxi is a command line system information script built for console and IRC.
