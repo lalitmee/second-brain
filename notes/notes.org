@@ -151,7 +151,18 @@ tags in *.git* folder
 #+end_src
 
 [[https://gist.github.com/alphapapa/0d38f082e609ed059cc7f2ed9caa7e3d][Gist Link]]
-
+** Data Structures
+*** Abstract Data Type
+An abstraction of a data structure which provides only the interface to which a
+data structure must adhere to.
+*** Big-O Notation
+Big-O Notation gives us an upper bound of the complexity in the *worst case*,
+helping to quantify performance as the input size becomes *arbitrarily large*
+**** Expamples
+***** Finding all subsets of a set - O(2^n)
+***** Finding all permutations of a string - O(n!)
+***** Sorting using merge sort - O(nlog(n))
+***** Iterating over all the cell in a matrix of size n and m - O(nm)
 ** HTML
 *** Input
 For showing the accepted file types in HTML file input
