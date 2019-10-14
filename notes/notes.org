@@ -710,5 +710,6 @@ should be refactored into these:
 **** inxi is a command line system information script built for console and IRC.
 [[https://askubuntu.com/a/1072433][Stackoverflow Link]]
 * Quotes
-** Dinah Shore: “Trouble is part of your life, and if you don't share it, you don't give the person who loves you a chance to love you enough.”
+** Life Quotes
+*** Dinah Shore: “Trouble is part of your life, and if you don't share it, you don't give the person who loves you a chance to love you enough.”
 
