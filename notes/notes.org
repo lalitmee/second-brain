@@ -455,6 +455,23 @@ See this [[http://jsfiddle.net/4rnNK/1/][JS Fiddle]] too
     moment(new Date('Wed, 23 Apr 2014 09:54:51 +0000'));
 #+end_src
 ***** The last option is a built-in fallback that Moment supports for now, with the deprecated console warning. They say they won't support this fallback in future releases. They explain that using new Date('my date') is too unpredictable.
+**** Deep Cloning
+#+begin_src javascript
+function deepClone(obj) {
+  let clone = Object.assign({}, obj);
+  Object.keys(clone).forEach(key => 
+		(clone[key] = typeof obj[key] === 'object' ? 
+			deepClone(obj[key]) : 
+			obj[key])
+  );
+	if(Array.isArray(obj)) {
+		clone.length = obj.length;
+		return Array.from(clone);
+	} else {
+		return clone;
+	}
+};
+#+end_src
 *** GitHub Repositories
 **** [[https://github.com/ryanmcdermott/clean-code-javascript][clean-code-javascript]]
 **** [[https://github.com/BuildingXwithJS/bxjs-weekly][bxjs-weekly]]
