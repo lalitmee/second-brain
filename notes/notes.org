@@ -713,4 +713,5 @@ should be refactored into these:
 ** Life Quotes
 *** Dinah Shore: “Trouble is part of your life, and if you don't share it, you don't give the person who loves you a chance to love you enough.”
 *** Barak Obama: "Acts of sacrifice and decency without regard to what's in it for you create ripple effects. Ones that lift up families and communities, that spread opportunity and boost our economy.
+*** Lisa Kudrow: "I think it's always a good move to listen to that inner voice, if it doesn't lead to a crime."
 
