@@ -481,6 +481,16 @@ function deepClone(obj) {
 **** [[https://medium.com/better-programming/an-intro-to-javascript-for-experienced-programmers-who-could-use-a-strong-dose-of-fundamentals-31535030616b][An Intro to Javascript for Experienced Programmers Who Could Use a Strong Dose of Fundamentals]]
 *** Websites
 **** [[https://javascript.info/][Javascript Info Website]]
+** Python
+*** Inputs
+**** 2-D Array input in Python
+#+begin_src python
+rows, columns = list(map(int,input().split()))
+b=[]
+for i in range(rows):
+    a=list(map(int,input().split()))
+    b.append(a)
+#+end_src
 ** Best Practices
 *** Loops
   Yes, loops are faster. map/reduce/filter can have method call overhead (sometimes not, if the function gets inlined by the JIT engine), and have a bunch of other overhead to handle obscure corner cases like sparse arrays and getters.
