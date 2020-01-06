@@ -743,6 +743,10 @@ find path -name filename
 #+begin_src bash
 find . -name "*.js"
 #+end_src
+** Git
+*** Squashing Commits
+- [[https://stackoverflow.com/a/5201642][This Stackoverflow Answer is Using Soft Reset]]
+- [[https://stackoverflow.com/a/5189600][This One is Using Rebase Method]]
 
 * Quotes
 ** Life Quotes
