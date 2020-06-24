@@ -761,4 +761,10 @@ Barak Obama: "Acts of sacrifice and decency without regard to what's in it for y
 #+begin_quote
 Lisa Kudrow: "I think it's always a good move to listen to that inner voice, if it doesn't lead to a crime."
 #+end_quote
+** Inspirational Quotes
+#+begin_quote
+Dale Patrige: “Stop creating a life that you need a vacation from. Instead move to where you want to live, do what you want to do, start what you want to 
+start and create the life you want today. This isn't rehearsal people. This is YOUR life.”
+#+end_quote
+
 
