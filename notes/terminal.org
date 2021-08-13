@@ -1,45 +1,44 @@
-#+TITLE: Terminal Notes
+#+TITLE: Terminal
 #+AUTHOR: Lalit Kumar
 #+EMAIL: lalitkumar.meena.lk@gmail.com
 #+OPTIONS: toc:nil
 
-* Terminal
-** Commands
-*** inxi is a command line system information script built for console and IRC.
+* Commands
+** inxi is a command line system information script built for console and IRC.
 [[https://askubuntu.com/a/1072433][Stackoverflow Link]]
-*** netstat
+** netstat
  To find the running localhost port PID(process ID):
  #+begin_src bash
   netstat -tulpn
  #+end_src
 
-*** pkill
+** pkill
 To kill a process by using PID(Process ID)
 #+begin_src bash
 pkill -9 <PID>
 #+end_src
 
-*** grep
-**** search for some string in any file
+** grep
+*** search for some string in any file
 #+begin_src bash
 grep "some string" file
 #+end_src
-**** The -i option enables us to search for a string case-insensitively in the given file. It matches words like “REACT,” “REact,” and “react.”
+*** The -i option enables us to search for a string case-insensitively in the given file. It matches words like “REACT,” “REact,” and “react.”
 #+begin_src bash
 grep -i "REact" file
 #+end_src
-**** We can find the number of lines that matches the given string/pattern with the -c (count) flag.
+*** We can find the number of lines that matches the given string/pattern with the -c (count) flag.
 #+begin_src bash
 grep -c "react" index.js
 #+end_src
-**** Here’s a fun and an educational comic about the grep command I found on the internet.
+*** Here’s a fun and an educational comic about the grep command I found on the internet.
 [[../images/grep_comic.jpeg]]
-*** find
-**** search file
+** find
+*** search file
 #+begin_src bash
 find path -name filename
 #+end_src
-**** use grep search
+*** use grep search
 #+begin_src bash
 find . -name "*.js"
 #+end_src

@@ -1,21 +1,19 @@
-#+TITLE: NOTES
+#+TITLE: IRC Channels
 #+AUTHOR: Lalit Kumar
 #+EMAIL: lalitkumar.meena.lk@gmail.com
 #+OPTIONS: toc:nil
 
-* IRC
-** Channels
-*** General
+* General
 - ##cars
 - ##chat
 - ##truth
 - #news
 
-*** Technical
+* Technical
 - #hackernews
 - #web
 
-*** Subjects
+* Subjects
 - ##English
 - ##chemistry
 - ##electronics
@@ -24,7 +22,7 @@
 - ##science
 - ##statistics
 
-*** Languages
+* Languages
 - ##c++
 - ##c++-basic
 - ##c++-general
@@ -54,24 +52,24 @@
 - #swift-lang
 - #typescript
 
-*** Frameworks
+* Frameworks
 - #angular
 - #django
 - #reactjs
 
-*** Shells
+* Shells
 - #bash
 - #fish
 - #zsh
 
-*** Applications
+* Applications
 - #mpv
 - #pluseaudio
 - #qt-creator
 - #telegram-foss
 - #videolan
 
-*** System
+* System
 - ##hackers
 - ##hardware
 - ##openssl
@@ -103,20 +101,20 @@
 - #xfce
 - #youtube-dl
 
-*** Chat
+* Chat
 - #bitcoinchat
 
-*** Knowledge
+* Knowledge
 - #textual
 - #wikipedia
 - #wikipedia-en
 
-*** Computer Science
+* Computer Science
 - ##algorithms
 - ##programming
 - ##programminglanguages
 
-*** Servers
+* Servers
 - ##aws
 - #docker
 - #google-containers

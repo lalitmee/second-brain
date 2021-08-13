@@ -1,4 +1,4 @@
-#+TITLE: NOTES
+#+TITLE: Notes
 #+AUTHOR: Lalit Kumar
 #+EMAIL: lalitkumar.meena.lk@gmail.com
 #+OPTIONS: toc:nil

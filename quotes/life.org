@@ -1,9 +1,8 @@
-#+TITLE: Life Quotes
+#+TITLE: Life
 #+AUTHOR: Lalit Kumar
 #+EMAIL: lalitkumar.meena.lk@gmail.com
 #+OPTIONS: toc:nil
 
-* Life Quotes
 #+begin_quote
 Dinah Shore: “Trouble is part of your life, and if you don't share it, you don't give the person who loves you a chance to love you enough.”
 #+end_quote

@@ -3,8 +3,7 @@
 #+EMAIL: lalitkumar.meena.lk@gmail.com
 #+OPTIONS: toc:nil
 
-* Best Practices
-** Loops
+* Loops
   Yes, loops are faster. map/reduce/filter can have method call overhead (sometimes not, if the function gets inlined by the JIT engine), and have a bunch of other overhead to handle obscure corner cases like sparse arrays and getters.
   There are even libraries that reimplement map/filter/reduce for the sole purpose of providing faster drop-in alternatives to those methods.
   However, beware that loops that declare variables using var share context between iterations, which can be a source of bugs if creating closures within the loop

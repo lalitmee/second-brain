@@ -1,11 +1,10 @@
-#+TITLE: Python Notes
+#+TITLE: Python
 #+AUTHOR: Lalit Kumar
 #+EMAIL: lalitkumar.meena.lk@gmail.com
 #+OPTIONS: toc:nil
 
-* Python
-** Inputs
-*** 2-D Array input in Python
+* Inputs
+** 2-D Array input in Python
 #+begin_src python
 rows, columns = list(map(int,input().split()))
 b=[]

@@ -1,10 +1,9 @@
-#+TITLE: NOTES
+#+TITLE: Emacs, Spacemacs and doom-emacs
 #+AUTHOR: Lalit Kumar
 #+EMAIL: lalitkumar.meena.lk@gmail.com
 #+OPTIONS: toc:nil
 
-* Emacs
-** Configuring Fira Code Symbols
+* Configuring Fira Code Symbols
 #+BEGIN_SRC emacs-lisp :tangle yes
 
 ;;; Fira code
