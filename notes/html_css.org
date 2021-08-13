@@ -1,0 +1,152 @@
+#+TITLE: NOTES
+#+AUTHOR: Lalit Kumar
+#+EMAIL: lalitkumar.meena.lk@gmail.com
+#+OPTIONS: toc:nil
+
+* HTML
+** Input
+For showing the accepted file types in HTML file input
+#+BEGIN_SRC html
+<input type="file" accept="text/xml" />
+#+END_SRC
+For more types, refer to this [[https://www.iana.org/assignments/media-types/media-types.xhtml][link]]
+* CSS
+** Defaults
+#+BEGIN_SRC css
+  *,
+  *:after,
+  *:before {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+    position: relative;
+    outline: none;
+  }
+#+END_SRC
+**  Change the scrollbar design
+#+BEGIN_SRC css
+  &::-webkit-scrollbar {
+    width: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    -webkit-border-radius: 100px;
+  }
+
+  &::-webkit-scrollbar:hover {
+    background-color: rgba(0, 0, 0, 0.09);
+  }
+
+  &::-webkit-scrollbar-thumb:vertical {
+    background: rgba(0, 0, 0, 0.5);
+    -webkit-border-radius: 100px;
+    background-clip: padding-box;
+    border: 2px solid rgba(0, 0, 0, 0);
+    min-height: 10px;
+  }
+
+  &::-webkit-scrollbar-thumb:vertical:active {
+    background: rgba(0, 0, 0, 0.61);
+    -webkit-border-radius: 100px;
+  }
+#+END_SRC
+** Box-shadow on the ng-select after clicking
+#+begin_src css
+  .ui-dropdown.ui-state-focus,
+  .ui-multiselect.ui-state-focus {
+    box-shadow: none !important;
+  }
+#+end_src
+** Text Gradient Color from CSS Tricks
+#+begin_src css
+  .read-more {
+    background: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(#ff8a00),
+      to(#da1b60)
+    );
+    background: linear-gradient(to right, #ff8a00, #da1b60);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    font-weight: 700;
+  }
+#+end_src
+** Awesome Button Styles on Hover
+[[https://tympanus.net/Development/ButtonStylesInspiration/][Link to the Website]]
+** For aligning something *Horizontally* and *Vertically* in center
+Put that anything inside a *div* and give this *css* to that div:
+#+begin_src css
+    .div {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+    }
+#+end_src
+** For Lists
+Making bullets of lists padded according to the text for the new line
+#+begin_src css
+    ul {
+      list-style-position: outside;
+    }
+#+end_src
+
+See this
+[[https://github.com/lalitmee/dNotes/blob/master/images/list-item-padded.png?raw=true]]
+
+See this [[http://jsfiddle.net/4rnNK/1/][JS Fiddle]] too
+** For making the text with three dots when it is larger than the element or div
+#+begin_src css
+  .text-truncate {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  /* this also works in this display: block is important*/
+  .text-with-dots {
+    display: block;
+    max-width: 98%;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+  }
+#+end_src
+** Font Sizes
+*** Alwasy use *rem* for setting the font size in the css by defining a root size in your css like
+#+begin_src css
+    html {
+      font-size: 16px;
+    }
+#+end_src
+*** If *em* is set to any property other than *font-size*, it will refer to the *font-size* of that element.
+    We should use something like this:
+#+begin_src css
+  .button_class {
+    display: inline-block;
+    color: inherit;
+    text-decoration: none;
+    padding: 0.5em 1.5em; // padding in em
+    background: white;
+    transition: background 250ms;
+    font-size: 1rem; // font-size in rem
+  }
+#+end_src
+** For *Border Radius of the Input*
+#+begin_src css
+  input:focus {
+    outline: none;
+    border: 1px solid #02b3e4;
+    box-shadow: 5px 5px 10px 0 rgba(46, 61, 73, 0.05);
+  }
+#+end_src

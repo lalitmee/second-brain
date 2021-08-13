@@ -1,0 +1,17 @@
+#+TITLE: Life Quotes
+#+AUTHOR: Lalit Kumar
+#+EMAIL: lalitkumar.meena.lk@gmail.com
+#+OPTIONS: toc:nil
+
+* Life Quotes
+#+begin_quote
+Dinah Shore: “Trouble is part of your life, and if you don't share it, you don't give the person who loves you a chance to love you enough.”
+#+end_quote
+
+#+begin_quote
+Barak Obama: "Acts of sacrifice and decency without regard to what's in it for you create ripple effects. Ones that lift up families and communities, that spread opportunity and boost our economy.
+#+end_quote
+
+#+begin_quote
+Lisa Kudrow: "I think it's always a good move to listen to that inner voice, if it doesn't lead to a crime."
+#+end_quote

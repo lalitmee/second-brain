@@ -1,0 +1,124 @@
+#+TITLE: NOTES
+#+AUTHOR: Lalit Kumar
+#+EMAIL: lalitkumar.meena.lk@gmail.com
+#+OPTIONS: toc:nil
+
+* IRC
+** Channels
+*** General
+- ##cars
+- ##chat
+- ##truth
+- #news
+
+*** Technical
+- #hackernews
+- #web
+
+*** Subjects
+- ##English
+- ##chemistry
+- ##electronics
+- ##math
+- ##physics
+- ##science
+- ##statistics
+
+*** Languages
+- ##c++
+- ##c++-basic
+- ##c++-general
+- ##java
+- ##javascript
+- ##php
+- ##python
+- ##rust
+- #R
+- #RubyOnRails
+- #clojure
+- #css
+- #css-overflow
+- #erlang
+- #go-nuts
+- #haskell
+- #haskell-beginners
+- #html
+- #latex
+- #lisp
+- #lua
+- #ocaml
+- #perl
+- #python-dev
+- #ruby
+- #scala
+- #swift-lang
+- #typescript
+
+*** Frameworks
+- #angular
+- #django
+- #reactjs
+
+*** Shells
+- #bash
+- #fish
+- #zsh
+
+*** Applications
+- #mpv
+- #pluseaudio
+- #qt-creator
+- #telegram-foss
+- #videolan
+
+*** System
+- ##hackers
+- ##hardware
+- ##openssl
+- ##windows
+- #archlinux
+- #darktable
+- #debian
+- #debian-offtopic
+- #fedora
+- #ffmpeg
+- #gamingonlinux
+- #gcc
+- #gnome
+- #gnu
+- #grub
+- #i3
+- #kodi
+- #kubuntu
+- #launchpad
+- #lxcontainers
+- #macosx
+- #openssh
+- #systemd
+- #ubuntu
+- #ubuntu-desktop
+- #ubuntu-devel
+- #ubuntu-meeting
+- #ubuntu-offtopic
+- #xfce
+- #youtube-dl
+
+*** Chat
+- #bitcoinchat
+
+*** Knowledge
+- #textual
+- #wikipedia
+- #wikipedia-en
+
+*** Computer Science
+- ##algorithms
+- ##programming
+- ##programminglanguages
+
+*** Servers
+- ##aws
+- #docker
+- #google-containers
+- #kubernetes
+- #nginx

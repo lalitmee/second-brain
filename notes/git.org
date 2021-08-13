@@ -1,0 +1,9 @@
+#+TITLE: Git Notes
+#+AUTHOR: Lalit Kumar
+#+EMAIL: lalitkumar.meena.lk@gmail.com
+#+OPTIONS: toc:nil
+
+* Git
+** Squashing Commits
+- [[https://stackoverflow.com/a/5201642][This Stackoverflow Answer is Using Soft Reset]]
+- [[https://stackoverflow.com/a/5189600][This One is Using Rebase Method]]

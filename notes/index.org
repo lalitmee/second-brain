@@ -1,0 +1,22 @@
+#+TITLE: NOTES
+#+AUTHOR: Lalit Kumar
+#+EMAIL: lalitkumar.meena.lk@gmail.com
+#+OPTIONS: toc:nil
+
+* Notes
+** [[file:angular.org][Angular]] 
+** [[file:best_practices.org][Best Practices]] 
+** [[file:data_structure.org][Data Structures]] 
+** [[file:emacs.org][Emacs]] 
+** [[file:git.org][Git]] 
+** [[file:html_css.org][HTML & CSS]] 
+** [[file:irc.org][IRC]] 
+** [[file:javascript.org][JavaScript]] 
+** [[file:python.org][Python]] 
+** [[file:react.org][React]] 
+** [[file:terminal.org][Terminal]] 
+** [[file:vim.org][Vim and Neovim]] 
+
+* Quotes
+** [[file:~/data/Github/dNotes/quotes/life.org][Life Quotes]] 
+** [[file:~/data/Github/dNotes/quotes/inspirational.org][Inspirational]] 

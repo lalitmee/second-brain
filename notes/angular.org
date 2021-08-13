@@ -1,0 +1,61 @@
+#+TITLE: Angular Notes
+#+AUTHOR: Lalit Kumar
+#+EMAIL: lalitkumar.meena.lk@gmail.com
+#+OPTIONS: toc:nil
+
+* Angular
+** Notes
+*** Add any *css* to the component tag from the component's css file
+#+begin_src css
+  :host {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    background-color: $default-background-color;
+  }
+#+end_src
+*** For adding ~ngStyle~ use this syntax:
+#+begin_src html
+  <some-element [ngStyle]="{'font-style': styleExp}"></some-element>
+#+end_src
+*** The simplest way is to cast the return of getElementsByClassName:
+#+begin_src typescript
+let floorElements = document.getElementsByClassName("floor") as HTMLCollectionOf<HTMLElement>;
+#+end_src
+** Best Practices
+*** Aliases for Imports
+  Creating aliases for imports is a plus. We may use imports three folders deep sometimes, so the following import is not the ideal solution:
+#+begin_src typescript
+  import { LoaderService } from '../../../loader/loader.service';
+#+end_src
+
+  Add the following piece of code into tsconfig.json file to make your imports short and well organized across the app:
+#+begin_src json
+  {
+    "compileOnSave": false,
+    "compilerOptions": {
+      "paths": {
+        "@app/*": ["app/*"],
+        "@env/*": ["environments/*"]
+      }
+    }
+  }
+#+end_src
+
+When you're done, these import
+#+begin_src typescript
+  import { LoaderService } from '../../../loader/loader.service';
+  import { environment } from '../../environment’;
+#+end_src
+
+should be refactored into these:
+#+begin_src typescript
+  import { LoaderService } from '@app/loader/loader.service';
+  import { environment } from '@env/environment’;
+#+end_src
+** Articles
+*** [[https://code-maze.com/angular-best-practices][Code Maze Article]]
+*** [[https://medium.freecodecamp.org/best-practices-for-a-clean-and-performant-angular-application-288e7b39eb6f][FreeCodeCamp Article]]
+*** [[https://blog.usejournal.com/best-practices-for-writing-angular-6-apps-e6d3c0f6c7c1][Noteworthy Medium Article]]
+*** [[https://netbasal.com/exploring-the-various-decorators-in-angular-b208875b207c][Exploring the Various Decorators in Angular]]
