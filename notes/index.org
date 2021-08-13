@@ -1,4 +1,4 @@
-#+TITLE: Notes
+#+TITLE: Knowledge Warehouse
 #+AUTHOR: Lalit Kumar
 #+EMAIL: lalitkumar.meena.lk@gmail.com
 #+OPTIONS: toc:nil
