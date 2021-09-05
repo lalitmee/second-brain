@@ -6,3 +6,15 @@
 * Squashing Commits
 - [[https://stackoverflow.com/a/5201642][This Stackoverflow Answer is Using Soft Reset]]
 - [[https://stackoverflow.com/a/5189600][This One is Using Rebase Method]]
+
+* List Pull Requests between two tags (using git)
+#+begin_src bash
+
+# one method
+git log v1.6.0..v1.7.0 --reverse --merges --oneline --grep='Merge pull request #'
+
+# second method
+git log --merges --grep 'Merge pull request' --pretty=format:%s v1.2.0..v1.3.0
+
+#+end_src
+
