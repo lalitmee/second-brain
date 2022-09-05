@@ -16,7 +16,115 @@
 ** [[file:react.org][React]]
 ** [[file:terminal.org][Terminal]]
 ** [[file:vim.org][Vim and Neovim]]
+** [[file:books.org][Books]]
 
 * Quotes
 ** [[file:~/data/Github/dNotes/quotes/life.org][Life Quotes]]
 ** [[file:~/data/Github/dNotes/quotes/inspirational.org][Inspirational]]
+
+* Vocabulary
+** Books
+words which I read and got to know from reading books
+
+| Words             | Meaning                                                                                                                                      |
+|-------------------+----------------------------------------------------------------------------------------------------------------------------------------------|
+| Feeble            | Weakly, Imbecile                                                                                                                             |
+| Fathom            | Measuring the deep                                                                                                                           |
+| Truce             | Real, True, Accurate                                                                                                                         |
+| Pedant            | person who is excessively concerned with minor details and rules or with displaying academic learning                                        |
+| Avenge            | Revenge, Retaliate                                                                                                                           |
+| Silhouette        | dark shape and outline of someone or something visible against a lighter background, especially in dim light.                                |
+| Conviction        | formal declaration that someone is guilty of a criminal offense, made by the verdict of a jury or the decision of a judge in a court of law. |
+| Morbid            | Diseased, Ill                                                                                                                                |
+| Riddance          | action of getting rid of a troublesome or unwanted person or thing                                                                           |
+| Stank             | have a strong unpleasant smell                                                                                                               |
+| Stilt             | Pile, Staff                                                                                                                                  |
+| Tart              | sharp or acid in taste                                                                                                                       |
+| Meddle            | Tamper, interfere in or busy oneself unduly with something that is not one's concern                                                         |
+| Frown             | a facial expression or look characterized by a furrowing of one's brows                                                                      |
+| Pious             | Holy, Pure                                                                                                                                   |
+| Engrave           | cut or carve (a text or design) on the surface of a hard object                                                                              |
+| Soot              | Lampblack, Kajal(in Hindi), Kalikh(sometimes in some sense)                                                                                  |
+| Languish          | (of a person or other living thing) lose or lack vitality; grow weak or feeble                                                               |
+| Attic             | a space or room just below the roof of a building                                                                                            |
+| Ajar              | (of a door or other opening) slightly open                                                                                                   |
+| Servile           | having or showing an excessive willingness to serve or please others, Gulami(in Hindi)                                                       |
+| Queers            | strange; odd.                                                                                                                                |
+| Sphinx            | Puzzler                                                                                                                                      |
+| Prudish           | Pakhandi or Nakhrebaz(in Hindi), hypocritical, sanctimonious                                                                                 |
+| Blissful          | Delightful                                                                                                                                   |
+| Uncouth           | Ganwar(in Hindi), churlish, arcadian                                                                                                         |
+| Labyrinth         | Maze or Bhoolbhulaiya(in Hindi)                                                                                                              |
+| Devout            | Dharmik(in Hindi), devotee                                                                                                                   |
+| Succulent         | Plupy, juicy, Raseela(in Hindi)                                                                                                              |
+| Eruption          | Blast, explosion                                                                                                                             |
+| Apparition        | Ghost, phantom, sprite, bhoot-preth(in Hindi)                                                                                                |
+| Galore            | in abundance                                                                                                                                 |
+| Sewn              | join, fasten, or repair (something) by making stitches with a needle and thread or a sewing machine                                          |
+| Litany            | a series of petitions for use in church services or processions, usually recited by the clergy and responded to in a recurring formula by    |
+|                   | the people.                                                                                                                                  |
+| Sobbing           | Weeping                                                                                                                                      |
+| Rancid            | Stale, Baasi(in Hindi)                                                                                                                       |
+| Rummaged          | search unsystematically and untidily through a mass or receptacle                                                                            |
+| Cordially         | cheerly, willingly                                                                                                                           |
+| Intoned           | emphasize, stand up, say or recite with little rise and fall of the pitch of the voice                                                       |
+| Pavement          | footpath, any paved area or surface                                                                                                          |
+| Emaciated         | abnormally thin or weak, especially because of illness or a lack of food, weak                                                               |
+| Drool             | saliva falling from the mouth, Laar(in Hindi)                                                                                                |
+| Frenzy            | a state or period of uncontrolled excitement or wild behavior                                                                                |
+| Hospice           | a home providing care for the sick, especially the terminally ill, Darmshala(in Hindi)                                                       |
+| Allegedly         | used to convey that something is claimed to be the case or have taken place, although there is no proof                                      |
+| Risque(in French) | Risky, Jokhim(in Hindi)                                                                                                                      |
+| Solace            | Consolation, Comfort, Santvana(in Hindi)                                                                                                     |
+| Obstinate         | Stubborn, Ziddi(in Hindi)                                                                                                                    |
+| Capricious        | given to sudden and unaccountable changes of mood or behavior, Manmoji(in Hindi)                                                             |
+| Ivory             | Haathi Dant(in Hindi)                                                                                                                        |
+| Tabloid           | brief, concise, abbreviated                                                                                                                  |
+| Fiery             | stunning, fierce                                                                                                                             |
+| Renounce          | abandon, leave, door karnd(in Hindi)                                                                                                         |
+| Staggers          | vichalta, ladkhadana, dagmagata (all are in Hindi)                                                                                           |
+| Soar              | skyrocket, oonchi udaan bharna(in Hindi)                                                                                                     |
+| Whooshing         | move or cause to move quickly or suddenly with a rushing sound.                                                                              |
+| Linen             | cloth woven from flax                                                                                                                        |
+| Succumb           | die, mar jaana(in Hindi)                                                                                                                     |
+| Evident           | obvious, revealed, zaahir(in Hindi)                                                                                                          |
+| Crinkle           | extortion, marodna(in Hindi)                                                                                                                 |
+| Frigid            | indifferent, cold, udaaseen(in Hindi)                                                                                                        |
+| Cavernous         | like a cavern in size, shape, or atmosphere, gufaaon waala(in Hindi)                                                                         |
+| Hinder            | stop, atkana(in Hindi)                                                                                                                       |
+| Triumphant        | winner, vijayi(in Hindi)                                                                                                                     |
+| Harbors           | shelter, aashram(in Hindi)                                                                                                                   |
+| Complacency       | joy, prasannta(in Hindi)                                                                                                                     |
+| Orator            | speaker, bolne waala(in Hindi)                                                                                                               |
+| Embroider         | badhana chadhana(in Hindi)                                                                                                                   |
+| Evangelists       | a person who seeks to convert others to the Christian faith, especially by public preaching                                                  |
+| Maneuver          | proficiency, skills, daanv(in Hindi), kushalta(in Hindi)                                                                                     |
+| Lout              | rustic, chuff, savage, clown, gavaar(in Hindi)                                                                                               |
+| Sanctimonious     | hypocritical, pakhandi(in Hindi)                                                                                                             |
+| Leisure           | vacation, leave, fursat(in Hindi)                                                                                                            |
+| Pursuit           | chase, peecha(in Hindi)                                                                                                                      |
+| Cardinal          | chief, principal, pramukh(in Hindi)                                                                                                          |
+| Autumnal          | of, characteristic of, or occurring in autumn.                                                                                               |
+| Meekly            | peacefully, tenderly, narmi(in Hindi)                                                                                                        |
+| Feigned           | simulated or pretended; insincere, bahane ka(in Hindi)                                                                                       |
+| Moan              | a long, low sound made by a person expressing physical or mental suffering or sexual pleasure, karahat(in Hindi)                             |
+| Pricks            | suffering, pain, chubhan or peeda(in Hindi)                                                                                                  |
+| Tread             | move, motion, speed, paav rakhna or chalna(in Hindi)                                                                                         |
+| Emanated          | (of something abstract but perceptible) issue or spread out from (a source)                                                                  |
+| Stench            | a strong and very unpleasant smell, badboo(in Hindi)                                                                                         |
+| Perpetual         | continuous, nonstop, lagataar(in Hindi)                                                                                                      |
+| Gloom             | sadness, udaasi(in Hindi)                                                                                                                    |
+| Propped           | position something underneath (someone or something) for support                                                                             |
+| Pittance          | a very small or inadequate amount of money paid to someone as an allowance or wage, daan(in Hindi)                                           |
+| Envy              | jealousy, jalan(in Hindi)                                                                                                                    |
+| Malice            | the intention or desire to do evil; ill will                                                                                                 |
+| Sceptical         | not easily convinced; having doubts or reservations, uljhan mein(in Hindi)                                                                   |
+
+** Words From TV Series
+| Words      | Meaning                                             |
+|------------+-----------------------------------------------------|
+| Expediency | Advantage, Benefit, Profit                          |
+| Subpoena   | orders to show  up in the court                     |
+| Entice     | Tempt, lure, Lubhana(in Hindi)                      |
+| Souvenir   | Memory, Remembrance, Nishani and Yaadgaar(in Hindi) |
+
