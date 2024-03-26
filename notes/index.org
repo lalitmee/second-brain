@@ -19,8 +19,8 @@
 ** [[file:books.org][Books]]
 
 * Quotes
-** [[file:~/data/Github/dNotes/quotes/life.org][Life Quotes]]
-** [[file:~/data/Github/dNotes/quotes/inspirational.org][Inspirational]]
+** [[file:~/Desktop/Github/dNotes/quotes/life.org][Life Quotes]]
+** [[file:~/Desktop/Github/dNotes/quotes/inspirational.org][Inspirational]]
 
 * Vocabulary
 ** Books
