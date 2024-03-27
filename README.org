@@ -1,8 +1,3 @@
-#+TITLE: Second Brain
-#+AUTHOR: Lalit Kumar
-#+EMAIL: lalitkumar.meena.lk@gmail.com
-#+OPTIONS: toc:nil
-
 * second-brain
   This is my second brain
 
