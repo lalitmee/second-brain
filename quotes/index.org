@@ -1,0 +1,5 @@
+* Quotes
+  Here are the quotes that keep me inspired.
+
+** [[file:../quotes/life.org][Life Quotes]]
+** [[file:../quotes/inspirational.org][Inspirational]]

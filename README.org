@@ -1,2 +1,11 @@
-* dNotes
-Warehouse of knowledge
+#+TITLE: Second Brain
+#+AUTHOR: Lalit Kumar
+#+EMAIL: lalitkumar.meena.lk@gmail.com
+#+OPTIONS: toc:nil
+
+* second-brain
+  This is my second brain
+
+** [[file:./notes/index.org][Notes]]
+** [[file:./quotes/index.org][Quotes]]
+** [[file:./vocabulary/index.org][Vocabulary]]

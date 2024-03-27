@@ -1,0 +1,5 @@
+* Vocabulary
+  This is the vocabulary of my second brain from different-different topics.
+
+** [[file:~/Desktop/Github/dNotes/notes/vocabulary/books.org][Books]]
+** [[file:~/Desktop/Github/dNotes/notes/vocabulary/tv-series.org][TV Series]]

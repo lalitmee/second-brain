@@ -1,0 +1,6 @@
+* Notes from Books
+  Here are the notes or anything that I need to revisit or keep in mind that is related.
+
+** Editors
+*** Vim
+**** [[file:./editors/vim/practical-vim.org][Practical Vim]]
