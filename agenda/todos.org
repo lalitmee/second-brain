@@ -1,0 +1,18 @@
+* Configs
+  config related things to do
+
+** Neovim
+   nvim related things to do
+
+   - checkout [[https://github.com/carbon-steel/detour.nvim][detour]]
+   - integrate [[https://github.com/polarmutex/git-worktree.nvim][polarmutex/git-worktree]] for `Git
+     Worktree`
+   - configure [[https://github.com/olimorris/codecompanion.nvim][codecompanion.nvim]]
+
+* TODO fix journal template in org-mode :NEOVIM:TASK:
+  SCHEDULED: [2025-06-25 Wed 02:02]
+  DEADLINE: <2025-06-25 Wed>
+
+  Tts not working correctly right now. I may want to create files on the basis of the day and if I add anything in the same day at any time it should add it in the same file and then if I add something on the next day it should create a new file for that day and new heading according to the time of the day
+
+  It should be possible in org-mode, I belive
