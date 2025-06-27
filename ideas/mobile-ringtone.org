@@ -1,5 +1,0 @@
-* Mobile Ringtone Application
-  Setting the mobile ringtone on the basis of the time or any context of the
-  day.
-
-** Ringtone set on the basis of the time of the day

@@ -1,1 +1,9 @@
 * Application Ideas
+
+** Mobile Ringtone Application
+   Create a mobile application that allows users to set different ringtones based on the time of day or specific contexts. The app can automatically change the ringtone according to user-defined rules.
+
+*** Features
+    - Setting the mobile ringtone on the basis of the time or any context of the day.
+    - User can set different ringtones for different times of the day.
+    - Option to set ringtones based on location or calendar events.
