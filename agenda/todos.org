@@ -20,3 +20,6 @@
   Need to check for the keymappings:
   - if keymappings are conflicting with user defined global mappings
   - if we can directly assign a state for *Todo* item
+
+* TODO checkout [[https://github.com/jj-vcs/jj][jijutsu]] :NEOVIM:TASK:
+  SCHEDULED: [2025-07-05 Sat 00:46] DEADLINE: <2025-07-13 Sun>
