@@ -8,10 +8,10 @@
   It should be possible in org-mode, I believe.
 
 * TODO check if we can move DONE tasks automatically               :NEOVIM:TASK:
-  SCHEDULED: [2025-06-30 Mon 11:00] DEADLINE: <2025-06-29 Sun>
+  SCHEDULED: [2025-06-30 Mon 11:00] DEADLINE: <2025-07-06 Sun>
 
 * TODO checkout [[https://github.com/polarmutex/git-worktree.nvim][polarmutex/git-worktree]]  :NEOVIM:TASK:
-  SCHEDULED: [2025-06-26 Thu 23:53] DEADLINE: <2025-06-29 Sun>
+  SCHEDULED: [2025-06-26 Thu 23:53] DEADLINE: <2025-07-13 Sun>
 
 * TODO check key mapping for org-mode :NEOVIM:TASK:
   SCHEDULED: <2025-07-05 Sat 11:14> DEADLINE: <2025-07-06 Sun>
@@ -27,7 +27,7 @@
   SCHEDULED: <2025-07-06 Sun 14:46> DEADLINE: <2025-07-06 Sun>
 
 * TODO automate git-worktree to perform some tasks :NEOVIM:TASK:
-  SCHEDULED: [2025-07-02 Wed 13:29] DEADLINE: <2025-07-02 Wed>
+  SCHEDULED: [2025-07-02 Wed 13:29] DEADLINE: <2025-07-13 Sun>
 
   - clear the last opened worktree from the buffer/window
   - install dependencies such as node modules, etc.
