@@ -20,10 +20,9 @@
   - if keymappings are conflicting with user defined global mappings
   - if we can directly assign a state for *Todo* item
 
-<<<<<<< HEAD
 * TODO checkout [[https://github.com/jj-vcs/jj][jijutsu]] :NEOVIM:TASK:
   SCHEDULED: [2025-07-05 Sat 00:46] DEADLINE: <2025-07-13 Sun>
-=======
+
 * TODO checkout Abolish abbreviations by Gemini (work account) :NEOVIM:TASK:
   SCHEDULED: <2025-07-06 Sun 14:46> DEADLINE: <2025-07-06 Sun>
 
@@ -36,4 +35,3 @@
     - if the last worktree has .env file, copy it to the new worktree
     - if the last worktree has package.json, run npm install in the new
       worktree
->>>>>>> fe7f641 (auto: backup changes on 2025-07-02 14:57:46)
