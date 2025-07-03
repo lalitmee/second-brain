@@ -35,3 +35,6 @@
     - if the last worktree has .env file, copy it to the new worktree
     - if the last worktree has package.json, run npm install in the new
       worktree
+
+* TODO integrate org-roam.nvim for notes :NEOVIM:TASK:
+  SCHEDULED: [2025-07-03 Thu 22:00] DEADLINE: <2025-07-05 Sat>
