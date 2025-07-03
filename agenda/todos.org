@@ -38,3 +38,6 @@
 
 * TODO integrate org-roam.nvim for notes :NEOVIM:TASK:
   SCHEDULED: [2025-07-03 Thu 22:00] DEADLINE: <2025-07-05 Sat>
+
+* TODO update the style of next.js Portfolio  :PORTFOLIO:TASK:
+  SCHEDULED: [2025-08-31 Sun 11:00] DEADLINE: <2025-08-03 Sun>
