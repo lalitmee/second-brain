@@ -13,8 +13,8 @@
 * TODO checkout [[https://github.com/polarmutex/git-worktree.nvim][polarmutex/git-worktree]]  :NEOVIM:TASK:
   SCHEDULED: [2025-06-26 Thu 23:53] DEADLINE: <2025-07-13 Sun>
 
-* TODO check key mapping for org-mode :NEOVIM:TASK:
-  SCHEDULED: <2025-07-05 Sat 11:14> DEADLINE: <2025-07-06 Sun>
+* DONE check key mapping for org-mode                              :NEOVIM:TASK:
+  SCHEDULED: <2025-07-05 Sat 11:14> DEADLINE: <2025-07-06 Sun> CLOSED: [2025-07-02 Wed 15:57]
 
   Need to check for the keymappings:
   - if keymappings are conflicting with user defined global mappings
