@@ -8,7 +8,7 @@
   It should be possible in org-mode, I believe.
 
 * TODO check if we can move DONE tasks automatically               :NEOVIM:TASK:
-  SCHEDULED: [2025-06-30 Mon 11:00] DEADLINE: <2025-07-06 Sun>
+  SCHEDULED: [2025-06-30 Mon 11:00] DEADLINE: <2025-07-13 Sun>
 
 * TODO checkout [[https://github.com/polarmutex/git-worktree.nvim][polarmutex/git-worktree]]  :NEOVIM:TASK:
   SCHEDULED: [2025-06-26 Thu 23:53] DEADLINE: <2025-07-13 Sun>
@@ -24,7 +24,7 @@
   SCHEDULED: [2025-07-05 Sat 00:46] DEADLINE: <2025-07-13 Sun>
 
 * TODO checkout Abolish abbreviations by Gemini (work account) :NEOVIM:TASK:
-  SCHEDULED: <2025-07-06 Sun 14:46> DEADLINE: <2025-07-06 Sun>
+  SCHEDULED: <2025-07-06 Sun 14:46> DEADLINE: <2025-07-13 Sun>
 
 * TODO automate git-worktree to perform some tasks :NEOVIM:TASK:
   SCHEDULED: [2025-07-02 Wed 13:29] DEADLINE: <2025-07-13 Sun>
@@ -36,8 +36,8 @@
     - if the last worktree has package.json, run npm install in the new
       worktree
 
-* TODO integrate org-roam.nvim for notes :NEOVIM:TASK:
-  SCHEDULED: [2025-07-03 Thu 22:00] DEADLINE: <2025-07-05 Sat>
+* DONE integrate org-roam.nvim for notes                           :NEOVIM:TASK:
+  SCHEDULED: [2025-07-03 Thu 22:00] DEADLINE: <2025-07-05 Sat> CLOSED: [2025-07-07 Mon 00:56]
 
 * TODO update the style of next.js Portfolio  :PORTFOLIO:TASK:
   SCHEDULED: [2025-08-31 Sun 11:00] DEADLINE: <2025-08-03 Sun>
