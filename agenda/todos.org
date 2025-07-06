@@ -1,24 +1,14 @@
-* DONE fix journal template in org-mode                            :NEOVIM:TASK:
-  SCHEDULED: [2025-06-25 Wed 02:02] DEADLINE: <2025-06-25 Wed> CLOSED: [2025-07-01 Tue 11:14]
-
-  Its not working correctly right now. I may want to create files on the basis
-  of the day and if I add anything in the same day at any time it should add it
-  in the same file and then if I add something on the next day it should create
-  a new file for that day and new heading according to the time of the day
-  It should be possible in org-mode, I believe.
+#+ARCHIVE: ~/Desktop/Github/second-brain/archive/todos.org::
 
 * TODO check if we can move DONE tasks automatically               :NEOVIM:TASK:
   SCHEDULED: [2025-06-30 Mon 11:00] DEADLINE: <2025-07-13 Sun>
+  - I checked and looks like *org-refile* is the feature that I am looking fore
+    but its not automatically moving the DONE tasks to the archive file.
+  - I will have to check and implment a cron or maybe a command that can do or
+    maybe both.
 
 * TODO checkout [[https://github.com/polarmutex/git-worktree.nvim][polarmutex/git-worktree]]  :NEOVIM:TASK:
   SCHEDULED: [2025-06-26 Thu 23:53] DEADLINE: <2025-07-13 Sun>
-
-* DONE check key mapping for org-mode                              :NEOVIM:TASK:
-  SCHEDULED: <2025-07-05 Sat 11:14> DEADLINE: <2025-07-06 Sun> CLOSED: [2025-07-02 Wed 15:57]
-
-  Need to check for the keymappings:
-  - if keymappings are conflicting with user defined global mappings
-  - if we can directly assign a state for *Todo* item
 
 * TODO checkout [[https://github.com/jj-vcs/jj][jijutsu]] :NEOVIM:TASK:
   SCHEDULED: [2025-07-05 Sat 00:46] DEADLINE: <2025-07-13 Sun>
@@ -35,9 +25,6 @@
     - if the last worktree has .env file, copy it to the new worktree
     - if the last worktree has package.json, run npm install in the new
       worktree
-
-* DONE integrate org-roam.nvim for notes                           :NEOVIM:TASK:
-  SCHEDULED: [2025-07-03 Thu 22:00] DEADLINE: <2025-07-05 Sat> CLOSED: [2025-07-07 Mon 00:56]
 
 * TODO update the style of next.js Portfolio  :PORTFOLIO:TASK:
   SCHEDULED: [2025-08-31 Sun 11:00] DEADLINE: <2025-08-03 Sun>
