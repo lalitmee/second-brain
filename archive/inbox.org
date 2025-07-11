@@ -1,0 +1,20 @@
+* DONE check key mapping for org-mode                              :NEOVIM:TASK:
+  SCHEDULED: <2025-07-05 Sat 11:14> DEADLINE: <2025-07-06 Sun> CLOSED: [2025-07-02 Wed 15:57]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2025-07-11 Fri 17:58
+  :ARCHIVE_FILE: /Users/lalit.kumar1/Projects/Personal/Github/second-brain/archive/todos.org
+  :ARCHIVE_CATEGORY: todos
+  :ARCHIVE_TODO: DONE
+  :END:
+
+  Need to check for the keymappings:
+  - if keymappings are conflicting with user defined global mappings
+  - if we can directly assign a state for *Todo* item
+* DONE integrate org-roam.nvim for notes                           :NEOVIM:TASK:
+  SCHEDULED: [2025-07-03 Thu 22:00] DEADLINE: <2025-07-05 Sat> CLOSED: [2025-07-07 Mon 00:56]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2025-07-11 Fri 17:58
+  :ARCHIVE_FILE: /Users/lalit.kumar1/Projects/Personal/Github/second-brain/archive/todos.org
+  :ARCHIVE_CATEGORY: todos
+  :ARCHIVE_TODO: DONE
+  :END:
