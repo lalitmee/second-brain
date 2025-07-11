@@ -1,7 +1,7 @@
 #+ARCHIVE: ~/Desktop/Github/second-brain/archive/todos.org::
 
-* TODO check if we can move DONE tasks automatically               :NEOVIM:TASK:
-  SCHEDULED: [2025-06-30 Mon 11:00] DEADLINE: <2025-07-13 Sun>
+* DONE check if we can move DONE tasks automatically               :NEOVIM:TASK:
+  SCHEDULED: [2025-06-30 Mon 11:00] DEADLINE: <2025-07-13 Sun> CLOSED: [2025-07-11 Fri 13:01]
   - I checked and looks like *org-refile* is the feature that I am looking fore
     but its not automatically moving the DONE tasks to the archive file.
   - I will have to check and implment a cron or maybe a command that can do or
@@ -30,9 +30,9 @@
 * TODO update the style of next.js Portfolio  :PORTFOLIO:TASK:
   SCHEDULED: [2025-08-31 Sun 11:00] DEADLINE: <2025-08-03 Sun>
 =======
-* TODO integrate org-roam.nvim for notes :NEOVIM:TASK:
-  SCHEDULED: [2025-07-03 Thu 22:00] DEADLINE: <2025-07-05 Sat>
+* DONE integrate org-roam.nvim for notes                           :NEOVIM:TASK:
+  SCHEDULED: [2025-07-03 Thu 22:00] DEADLINE: <2025-07-05 Sat> CLOSED: [2025-07-11 Fri 13:01]
 
-* TODO integrate org-roam :NEOVIM:TASK:
-  SCHEDULED: [2025-07-03 Thu 17:53] DEADLINE: <2025-07-20 Sun>
+* DONE integrate org-roam                                          :NEOVIM:TASK:
+  SCHEDULED: [2025-07-03 Thu 17:53] DEADLINE: <2025-07-20 Sun> CLOSED: [2025-07-11 Fri 13:01]
 >>>>>>> 3052cc4 (auto: backup changes on 2025-07-10 12:00:01)
