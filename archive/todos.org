@@ -2,7 +2,7 @@
   SCHEDULED: [2025-06-25 Wed 02:02] DEADLINE: <2025-06-25 Wed> CLOSED: [2025-07-01 Tue 11:14]
   :PROPERTIES:
   :ARCHIVE_TIME: 2025-07-07 Mon 01:18
-  :ARCHIVE_FILE: /home/lalitmee/Desktop/Github/second-brain/agenda/todos.org
+  :ARCHIVE_FILE: /home/lalitmee/Projects/Personal/Github/second-brain/agenda/todos.org
   :ARCHIVE_CATEGORY: todos
   :ARCHIVE_TODO: DONE
   :END:

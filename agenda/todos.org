@@ -1,20 +1,7 @@
-#+ARCHIVE: ~/Desktop/Github/second-brain/archive/todos.org::
-
-* TODO checkout [[https://github.com/polarmutex/git-worktree.nvim][polarmutex/git-worktree]] :NEOVIM:TASK:
-  SCHEDULED: [2025-06-26 Thu 23:53] DEADLINE: <2025-07-13 Sun>
+#+ARCHIVE: ~/Projects/Personal/Github/second-brain/archive/todos.org::
 
 * TODO checkout [[https://github.com/jj-vcs/jj][jijutsu]] :NEOVIM:TASK:
-  SCHEDULED: [2025-07-05 Sat 00:46] DEADLINE: <2025-07-13 Sun>
-
-* TODO automate git-worktree to perform some tasks :NEOVIM:TASK:
-  SCHEDULED: [2025-07-02 Wed 13:29] DEADLINE: <2025-07-13 Sun>
-
-  - clear the last opened worktree from the buffer/window
-  - install dependencies such as node modules, etc.
-    - if the last worktree has node_modules, copy it to the new worktree
-    - if the last worktree has .env file, copy it to the new worktree
-    - if the last worktree has package.json, run npm install in the new
-      worktree
+  SCHEDULED: [2025-07-05 Sat 00:46] DEADLINE: <2025-07-20 Sun>
 
 * TODO update the style of next.js Portfolio  :PORTFOLIO:TASK:
   SCHEDULED: [2025-08-31 Sun 11:00] DEADLINE: <2025-08-03 Sun>

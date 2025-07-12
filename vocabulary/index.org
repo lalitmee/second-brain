@@ -1,5 +1,5 @@
 * Vocabulary
   This is the vocabulary of my second brain from different-different topics.
 
-** [[file:~/Desktop/Github/dNotes/notes/vocabulary/books.org][Books]]
-** [[file:~/Desktop/Github/dNotes/notes/vocabulary/tv-series.org][TV Series]]
+** [[file:~/Projects/Personal/Github/dNotes/notes/vocabulary/books.org][Books]]
+** [[file:~/Projects/Personal/Github/dNotes/notes/vocabulary/tv-series.org][TV Series]]
