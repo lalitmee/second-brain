@@ -5,6 +5,3 @@
 
 * TODO update the style of next.js Portfolio  :PORTFOLIO:TASK:
   SCHEDULED: [2025-08-31 Sun 11:00] DEADLINE: <2025-08-03 Sun>
-
-* TODO understand the idea of SCHEDULED date in org-mode :NEOVIM:TASK:
-  SCHEDULED: [2025-07-11 Fri] DEADLINE: <2025-07-13 Sun>
