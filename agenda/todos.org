@@ -8,3 +8,6 @@
 
 * TODO Reffer Ashirwad Singh from LinkedIn :TASK:
   SCHEDULED: [2025-07-14 Mon 11:00] DEADLINE: <2025-07-14 Mon>
+
+* TODO fix `git-worktree` switching `node_modules` warning :TASK:
+  SCHEDULED: [2025-07-14 Mon 17:42] DEADLINE: <2025-07-15 Tue>
