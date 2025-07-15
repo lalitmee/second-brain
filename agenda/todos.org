@@ -7,7 +7,7 @@
   SCHEDULED: [2025-08-31 Sun 11:00] DEADLINE: <2025-08-03 Sun>
 
 * TODO Reffer Ashirwad Singh from LinkedIn :TASK:
-  SCHEDULED: [2025-07-14 Mon 11:00] DEADLINE: <2025-07-15 Tue>
+  SCHEDULED: [2025-07-14 Mon 11:00] DEADLINE: <2025-07-17 Thu>
 
 * DONE fix `git-worktree` switching `node_modules` warning                :TASK:
   SCHEDULED: [2025-07-14 Mon 17:42] DEADLINE: <2025-07-15 Tue> CLOSED: [2025-07-14 Mon 23:57]
