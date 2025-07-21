@@ -63,3 +63,11 @@
   :ARCHIVE_CATEGORY: todos
   :ARCHIVE_TODO: DONE
   :END:
+* DONE integrate tmux ~display-popup~ command                             :TASK:
+  SCHEDULED: [2025-07-14 Mon 23:56] DEADLINE: <2025-07-20 Sun> CLOSED: [2025-07-21 Mon 11:53]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2025-07-21 Mon 11:53
+  :ARCHIVE_FILE: /Users/lalit.kumar1/Projects/Personal/Github/second-brain/agenda/todos.org
+  :ARCHIVE_CATEGORY: todos
+  :ARCHIVE_TODO: DONE
+  :END:

@@ -1,7 +1,7 @@
 #+ARCHIVE: ~/Projects/Personal/Github/second-brain/archive/todos.org::
 
 * TODO checkout [[https://github.com/jj-vcs/jj][jijutsu]] :NEOVIM:TASK:
-  SCHEDULED: [2025-07-05 Sat 00:46] DEADLINE: <2025-07-20 Sun>
+  SCHEDULED: [2025-07-05 Sat 00:46] DEADLINE: <2025-07-27 Sun>
 
 * TODO update the style of next.js Portfolio  :PORTFOLIO:TASK:
   SCHEDULED: [2025-08-31 Sun 11:00] DEADLINE: <2025-08-03 Sun>
@@ -12,14 +12,11 @@
 * DONE fix `git-worktree` switching `node_modules` warning                :TASK:
   SCHEDULED: [2025-07-14 Mon 17:42] DEADLINE: <2025-07-15 Tue> CLOSED: [2025-07-14 Mon 23:57]
 
-* TODO integrate tmux ~display-popup~ command :TASK:
-  SCHEDULED: [2025-07-14 Mon 23:56] DEADLINE: <2025-07-20 Sun>
-
 * TODO Fix <C-r> in shell for history search :TASK:
-  SCHEDULED: [2025-07-15 Tue 18:25] DEADLINE: <2025-07-16 Wed>
+  SCHEDULED: [2025-07-15 Tue 18:25] DEADLINE: <2025-07-27 Sun>
 
 * TODO create a tmux popup for killing process using FZF :TASK:
-  SCHEDULED: [2025-07-16 Wed 12:57] DEADLINE: <2025-07-20 Sun>
+  SCHEDULED: [2025-07-16 Wed 12:57] DEADLINE: <2025-08-03 Sun>
 
 * TODO enable web search in avante.nvim :NEOVIM:TASK:
-  SCHEDULED: [2025-07-16 Wed 22:41] DEADLINE: <2025-07-20 Sun>
+  SCHEDULED: [2025-07-16 Wed 22:41] DEADLINE: <2025-07-27 Sun>
