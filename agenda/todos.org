@@ -23,3 +23,6 @@
 
 * TODO checkout [[https://github.com/waiting-for-dev/ergoterm.nvim][egoterm.nvim]] :NEOVIM:TASK:
   SCHEDULED: [2025-07-21 Mon 23:22] DEADLINE: <2025-07-27 Sun>
+
+* TODO integrate gh in tmux display-popup for Reposistories opening :TASK:
+  SCHEDULED: [2025-07-23 Wed 17:04] DEADLINE: <2025-08-10 Sun>
