@@ -71,3 +71,11 @@
   :ARCHIVE_CATEGORY: todos
   :ARCHIVE_TODO: DONE
   :END:
+* DONE Fix <C-r> in shell for history search                              :TASK:
+  SCHEDULED: [2025-07-15 Tue 18:25] DEADLINE: <2025-07-27 Sun> CLOSED: [2025-07-24 Thu 21:17]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2025-07-24 Thu 21:17
+  :ARCHIVE_FILE: /Users/lalit.kumar1/Projects/Personal/Github/second-brain/agenda/todos.org
+  :ARCHIVE_CATEGORY: todos
+  :ARCHIVE_TODO: DONE
+  :END:
