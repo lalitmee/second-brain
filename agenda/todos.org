@@ -23,3 +23,6 @@
 
 * TODO integrate gh in tmux display-popup for Reposistories opening :TASK:
   SCHEDULED: [2025-07-23 Wed 17:04] DEADLINE: <2025-08-10 Sun>
+
+* TODO Update Address in ICICI Bank for Account and Credit Cards :TASK:
+  SCHEDULED: [2025-08-05 Tue 23:06] DEADLINE: <2025-08-05 Tue>
