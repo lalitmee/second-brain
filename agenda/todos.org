@@ -29,3 +29,6 @@
 
 * TODO uppdate address in ICICI Bank :TASK:
   SCHEDULED: [2025-08-19 Tue 18:14] DEADLINE: <2025-08-19 Tue>
+
+* TODO node version automatically switching :TASK:
+  SCHEDULED: [2025-08-29 Fri 23:00] DEADLINE: <2025-08-31 Sun>
