@@ -15,8 +15,8 @@
 * TODO create a tmux popup for killing process using FZF :TASK:
   SCHEDULED: [2025-07-16 Wed 12:57] DEADLINE: <2025-08-03 Sun>
 
-* TODO enable web search in avante.nvim :NEOVIM:TASK:
-  SCHEDULED: [2025-07-16 Wed 22:41] DEADLINE: <2025-07-27 Sun>
+* REJECTED enable web search in avante.nvim                        :NEOVIM:TASK:
+  SCHEDULED: [2025-07-16 Wed 22:41] DEADLINE: <2025-07-27 Sun> CLOSED: [2025-09-07 Sun 00:12]
 
 * TODO checkout [[https://github.com/waiting-for-dev/ergoterm.nvim][egoterm.nvim]] :NEOVIM:TASK:
   SCHEDULED: [2025-07-21 Mon 23:22] DEADLINE: <2025-07-27 Sun>
@@ -24,11 +24,8 @@
 * TODO integrate gh in tmux display-popup for Reposistories opening :TASK:
   SCHEDULED: [2025-07-23 Wed 17:04] DEADLINE: <2025-08-10 Sun>
 
-* TODO Update Address in ICICI Bank for Account and Credit Cards :TASK:
-  SCHEDULED: [2025-08-05 Tue 23:06] DEADLINE: <2025-08-05 Tue>
+* DONE Update Address in ICICI Bank for Account and Credit Cards          :TASK:
+  SCHEDULED: [2025-08-05 Tue 23:06] DEADLINE: <2025-08-05 Tue> CLOSED: [2025-09-07 Sun 00:12]
 
-* TODO uppdate address in ICICI Bank :TASK:
-  SCHEDULED: [2025-08-19 Tue 18:14] DEADLINE: <2025-08-19 Tue>
-
-* TODO node version automatically switching :TASK:
-  SCHEDULED: [2025-08-29 Fri 23:00] DEADLINE: <2025-08-31 Sun>
+* DONE uppdate address in ICICI Bank                                      :TASK:
+  SCHEDULED: [2025-08-19 Tue 18:14] DEADLINE: <2025-08-19 Tue> CLOSED: [2025-09-07 Sun 00:12]
