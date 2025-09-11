@@ -1,1 +1,25 @@
 * Neovim Ideas
+  Ideas for neovim and its ecosystem
+
+** Plugins
+   plugin ideas for neovim captured
+
+*** keys.nvim                                                      :IDEA:NEOVIM:
+    - checking for the keymappings defined in the user's neovim config
+    - tracking for those keys the number of times every key is pressed
+    - generating a report of most used, medium used, and not used keymaps
+    - suggesting the user some actionables on the basis of the reports about
+      the keymaps
+    <!-- AI provided features -->
+    - providing a way to the user to easily remove the not used keymaps
+    - providing a way to the user to easily remap the medium used keymaps
+    - providing a way to the user to easily optimize the most used keymaps
+    - providing a way to the user to easily visualize the keymaps in a
+      graphical way (e.g. heatmap)
+    - providing a way to the user to easily share the keymaps with others
+    - providing a way to the user to easily import keymaps from others
+    - providing a way to the user to easily backup and restore keymaps
+    - providing a way to the user to easily sync keymaps across multiple
+      neovim instances
+    - providing a way to the user to easily export keymaps to different
+      formats (e.g. json, yaml, toml, etc.)
