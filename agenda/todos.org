@@ -37,3 +37,6 @@
 
 * TODO zsh completions for ~z~ or ~zoxide~ command :TASK:
   SCHEDULED: [2025-09-09 Tue 01:15] DEADLINE: <2025-09-21 Sun>
+
+* TODO call yash tomorrow :TASK:
+  SCHEDULED: [2025-09-11 Thu 18:20] DEADLINE: <2025-09-12 Fri>
