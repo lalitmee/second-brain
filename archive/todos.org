@@ -87,3 +87,19 @@
   :ARCHIVE_CATEGORY: todos
   :ARCHIVE_TODO: TODO
   :END:
+* DONE zsh completions for ~z~ or ~zoxide~ command                        :TASK:
+  SCHEDULED: [2025-09-09 Tue 01:15] DEADLINE: <2025-09-21 Sun> CLOSED: [2025-09-13 Sat 04:27]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2025-09-13 Sat 04:27
+  :ARCHIVE_FILE: /home/lalitmee/Projects/Personal/Github/second-brain/agenda/todos.org
+  :ARCHIVE_CATEGORY: todos
+  :ARCHIVE_TODO: DONE
+  :END:
+* CANCELLED call yash tomorrow                                            :TASK:
+  SCHEDULED: [2025-09-11 Thu 18:20] DEADLINE: <2025-09-12 Fri> CLOSED: [2025-09-13 Sat 04:28]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2025-09-13 Sat 04:28
+  :ARCHIVE_FILE: /home/lalitmee/Projects/Personal/Github/second-brain/agenda/todos.org
+  :ARCHIVE_CATEGORY: todos
+  :ARCHIVE_TODO: CANCELLED
+  :END:
