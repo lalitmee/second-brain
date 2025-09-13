@@ -12,9 +12,6 @@
 * DONE fix `git-worktree` switching `node_modules` warning                :TASK:
   SCHEDULED: [2025-07-14 Mon 17:42] DEADLINE: <2025-07-15 Tue> CLOSED: [2025-07-14 Mon 23:57]
 
-* TODO create a tmux popup for killing process using FZF :TASK:
-  SCHEDULED: [2025-07-16 Wed 12:57] DEADLINE: <2025-08-03 Sun>
-
 * REJECTED enable web search in avante.nvim                        :NEOVIM:TASK:
   SCHEDULED: [2025-07-16 Wed 22:41] DEADLINE: <2025-07-27 Sun> CLOSED: [2025-09-07 Sun 00:12]
 

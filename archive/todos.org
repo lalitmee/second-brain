@@ -103,3 +103,11 @@
   :ARCHIVE_CATEGORY: todos
   :ARCHIVE_TODO: CANCELLED
   :END:
+* DONE create a tmux popup for killing process using FZF                  :TASK:
+  SCHEDULED: [2025-07-16 Wed 12:57] DEADLINE: <2025-08-03 Sun> CLOSED: [2025-09-13 Sat 05:11]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2025-09-13 Sat 05:11
+  :ARCHIVE_FILE: /home/lalitmee/Projects/Personal/Github/second-brain/agenda/todos.org
+  :ARCHIVE_CATEGORY: todos
+  :ARCHIVE_TODO: DONE
+  :END:
