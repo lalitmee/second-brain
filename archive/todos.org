@@ -111,3 +111,11 @@
   :ARCHIVE_CATEGORY: todos
   :ARCHIVE_TODO: DONE
   :END:
+* DONE Reffer Ashirwad Singh from LinkedIn                                :TASK:
+  SCHEDULED: [2025-07-14 Mon 11:00] DEADLINE: <2025-07-17 Thu> CLOSED: [2025-09-14 Sun 22:27]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2025-09-14 Sun 22:27
+  :ARCHIVE_FILE: /home/lalitmee/Projects/Personal/Github/second-brain/agenda/todos.org
+  :ARCHIVE_CATEGORY: todos
+  :ARCHIVE_TODO: DONE
+  :END:
