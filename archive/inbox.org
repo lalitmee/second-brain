@@ -1,0 +1,8 @@
+* DONE update NES packages                                           :TASK:WORK:
+  SCHEDULED: <2025-08-27 Wed 14:00> DEADLINE: <2025-08-29 Fri> CLOSED: [2025-09-16 Tue 18:07]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2025-09-16 Tue 18:07
+  :ARCHIVE_FILE: /Users/lalit.kumar1/Projects/Work/Github/second-brain/archive/todos.org
+  :ARCHIVE_CATEGORY: todos
+  :ARCHIVE_TODO: DONE
+  :END:
