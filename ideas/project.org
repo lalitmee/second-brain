@@ -1,1 +1,4 @@
 * Project Ideas
+
+* Text Reader for Browser :IDEA:PROJECT:
+  It can be a very good project idea to implement which can help me to read the blog post if I am working on something else. Just attach and ask it to read.
