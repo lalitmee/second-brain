@@ -34,3 +34,17 @@
 
 * TODO integrate gh to interact with pull requests in a tmux popup :TASK:
   SCHEDULED: [2025-10-08 Wed 13:01] DEADLINE: <2025-10-08 Wed>
+
+* TODO integrate git hunks :NEOVIM:TASK:
+  SCHEDULED: [2025-10-24 Fri 13:27] DEADLINE: <2025-10-24 Fri>
+
+  - there is a telescope extension for git hunks
+    - this is not working correctly for me right now
+  - I also have a `GitHunks` command that shows git hunks in a telescope
+    picker
+    - I think we can use the same logic to show git hunks in a task picker
+
+** Git Hunks Next/Previous
+   - I want to be able to jump to the next/previous git hunk in a file
+   - this can be done with the `:Gitsigns next_hunk` and `:Gitsigns prev_hunk` commands
+   - I want to bind these commands to keys for easy access
