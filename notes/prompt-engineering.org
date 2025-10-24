@@ -1,0 +1,254 @@
+#+TITLE: KERNEL Prompt Framework
+#+AUTHOR: lalitmee
+#+DATE: 2025-10-03
+#+FILETAGS: :prompt_engineering:ai:productivity:frameworks:
+
+* Overview
+
+  KERNEL is a systematic approach to prompt engineering that ensures consistent, verifiable, and reproducible results. Apply this framework when requesting code changes, documentation, or analysis from AI assistants.
+
+  *Source:* Based on analysis of 1000+ real work prompts over 1 year by a tech lead
+
+* The Six Principles
+
+** K — Keep it Simple
+
+   - State one clear goal per request
+   - Avoid long context dumps
+   - Focus on the specific outcome needed
+
+*** Example
+    - ❌ Bad: "I need help with something about databases and maybe some caching and performance stuff"
+    - ✅ Good: "Write a tutorial explaining Redis pub/sub pattern with code examples"
+
+*** Result
+    70% less token usage, 3x faster responses
+
+** E — Easy to Verify
+
+   - Define objective success criteria
+   - Include measurable outcomes
+   - Specify what "done" looks like
+   - If you can't verify success, AI can't deliver it
+
+*** Example
+    - ❌ Bad: "Make it user-friendly"
+    - ✅ Good: "Include 3 working code examples, type definitions, and usage documentation"
+
+*** Result
+    85% success rate with clear criteria vs 41% without
+
+** R — Reproducible
+
+   - Avoid temporal references ("latest", "current trends", "modern best practices")
+   - Pin specific versions and requirements
+   - Ensure the same prompt works consistently over time
+   - Same prompt should work next week, next month
+
+*** Example
+    - ❌ Bad: "Use the latest React patterns"
+    - ✅ Good: "Use React 18.2 with TypeScript 5.0"
+
+*** Result
+    94% consistency across 30 days in testing
+
+** N — Narrow Scope
+
+   - One prompt = one goal
+   - Split complex tasks into discrete steps
+   - Avoid combining multiple deliverables in single request
+
+*** Example
+    - ❌ Bad: "Create a REST API, write tests, add documentation, and set up CI/CD"
+    - ✅ Good: "Create a REST API with CRUD endpoints for User resource" (then separately: tests, docs, CI)
+
+*** Result
+    Single-goal prompts: 89% satisfaction vs 41% for multi-goal
+
+** E — Explicit Constraints
+
+   - State what NOT to do
+   - Define boundaries (libraries, file size, style)
+   - Specify limitations upfront
+
+*** Example
+    - ❌ Bad: "Write a data processing script"
+    - ✅ Good: "Python script using only stdlib, no external dependencies, under 100 lines, reads CSV files"
+
+*** Result
+    Constraints reduce unwanted outputs by 91%
+
+** L — Logical Structure
+
+   Format every request using this template:
+
+   #+BEGIN_SRC text
+   Context: [What exists / background information]
+   Task: [Specific action to perform]
+   Constraints: [What to avoid / boundaries]
+   Format: [Expected output structure]
+   Verify: [How to check success]
+   #+END_SRC
+
+* Example Application
+
+** Before KERNEL
+
+   #+BEGIN_QUOTE
+   Help me write some code to process data files and make them more efficient
+   #+END_QUOTE
+
+   Result: 200 lines of generic, unusable code
+
+** After KERNEL
+
+   #+BEGIN_SRC text
+   Context: Processing multiple CSV files with the same schema (name, email, age)
+   Task: Python script to merge CSVs into single output file
+   Constraints:
+     - Pandas only, no other dependencies
+     - Under 50 lines of code
+     - Handle duplicate entries (keep first occurrence)
+   Format: Single script file, outputs merged.csv
+   Verify: Run on test_data/ folder with 3 sample CSVs
+   #+END_SRC
+
+   Result: 37 lines, worked on first try
+
+* Measured Impact
+
+  From applying KERNEL to 1000+ prompts:
+
+  | Metric                    | Before | After | Improvement |
+  |---------------------------+--------+-------+-------------|
+  | First-try success         |    72% |   94% | +22%        |
+  | Time to useful result     |      - |     - | -67%        |
+  | Token usage               |      - |     - | -58%        |
+  | Accuracy                  |      - |     - | +340%       |
+  | Revisions needed          |    3.2 |   0.4 | -87%        |
+
+* Benefits
+
+  - *First-try success*: Reduces back-and-forth iterations
+  - *Clear scope*: Prevents scope creep and confusion
+  - *Verifiable outcomes*: Easy to confirm completion
+  - *Reproducible*: Same request works consistently over time
+  - *Efficient*: Less token usage, faster results
+  - *Model-agnostic*: Works across GPT-5, Claude, Gemini, Llama
+
+* When to Apply
+
+  - Writing new code or scripts
+  - Refactoring existing code
+  - Creating documentation
+  - Debugging and troubleshooting
+  - Learning new frameworks or languages
+  - Any complex request requiring AI assistance
+
+* Advanced Tips
+
+** Chaining Prompts
+   Chain multiple KERNEL prompts instead of writing one complex prompt. Each prompt does one thing well, feeds into the next.
+
+** Example Chain
+   1. First prompt: "Create database schema for blog platform"
+   2. Second prompt: "Generate SQL migrations for [schema from step 1]"
+   3. Third prompt: "Write API endpoints to interact with [schema]"
+
+** Iteration Pattern
+   If output isn't perfect:
+   1. Keep successful parts
+   2. Write new KERNEL prompt for the problem area
+   3. Reference previous output in Context
+
+* Common Use Cases
+
+** Code Generation
+
+   #+BEGIN_SRC text
+   Context: REST API needs authentication middleware
+   Task: Express.js JWT authentication middleware function
+   Constraints:
+     - Use jsonwebtoken library only
+     - Under 30 lines
+     - Return 401 for invalid tokens
+   Format: Single middleware function with JSDoc comments
+   Verify: Include example usage in route handler
+   #+END_SRC
+
+** Bug Fixing
+
+   #+BEGIN_SRC text
+   Context: React component re-renders infinitely, uses useEffect with state dependency
+   Task: Fix infinite render loop
+   Constraints:
+     - Minimal changes to existing code
+     - Explain what caused the issue
+   Format: Fixed code + 2-3 sentence explanation
+   Verify: Component renders once on mount, updates only on prop changes
+   #+END_SRC
+
+** Documentation
+
+   #+BEGIN_SRC text
+   Context: Open source library with no README
+   Task: Write README.md with installation and basic usage
+   Constraints:
+     - Under 200 lines
+     - Include code examples that actually work
+     - Markdown format
+   Format: Single README.md file
+   Verify: Someone unfamiliar can install and run example in < 5 minutes
+   #+END_SRC
+
+** Learning
+
+   #+BEGIN_SRC text
+   Context: Learning GraphQL, familiar with REST APIs
+   Task: Explain GraphQL query syntax with examples
+   Constraints:
+     - Compare to equivalent REST calls
+     - 3 examples: simple query, nested query, mutation
+   Format: Tutorial format with executable examples
+   Verify: I can write a basic query after reading
+   #+END_SRC
+
+* Anti-Patterns to Avoid
+
+** ❌ Vague Requests
+   "Make it better", "optimize this", "fix the issues"
+
+** ❌ Kitchen Sink Prompts
+   Asking for everything at once: code + tests + docs + deployment + monitoring
+
+** ❌ Temporal References
+   "Use latest version", "modern best practices", "current standards"
+
+** ❌ Missing Context
+   Not explaining what already exists or what the goal is
+
+** ❌ No Success Criteria
+   Not defining how to verify the result works
+
+* Verification Checklist
+
+  Before sending a prompt, verify:
+
+  - [ ] One clear goal stated
+  - [ ] Success criteria defined (what does "done" look like?)
+  - [ ] Versions/requirements pinned (no "latest")
+  - [ ] Scope is narrow (not combining multiple tasks)
+  - [ ] Constraints clearly stated
+  - [ ] Logical structure: Context → Task → Constraints → Format → Verify
+
+* References
+
+  - Source: [[https://www.reddit.com/r/PromptEngineering/comments/1nt7x7v/after_1000_hours_of_prompt_engineering_i_found/][Reddit - After 1000 hours of prompt engineering I found...]]
+  - Author: u/yell0wfever92
+  - Date: 2025
+  - Testing: 1000+ real work prompts analyzed
+  - Reported: Doubled team AI-assisted development velocity
+
+* Notes
+
+  This framework works across all major AI models and programming languages. The key is consistent application of all six principles, not just picking one or two.

@@ -31,3 +31,6 @@
 
 * TODO checkout [[https://github.com/otavioschwanck/tmux-awesome-manager.nvim][tmux-awesome-manager.nvim]] :TASK:
   SCHEDULED: [2025-09-22 Mon 23:45] DEADLINE: <2025-09-28 Sun>
+
+* TODO integrate gh to interact with pull requests in a tmux popup :TASK:
+  SCHEDULED: [2025-10-08 Wed 13:01] DEADLINE: <2025-10-08 Wed>
