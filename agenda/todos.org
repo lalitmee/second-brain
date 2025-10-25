@@ -36,3 +36,8 @@
   SCHEDULED: [2025-10-25 Sat 03:40] DEADLINE: <2025-10-25 Sat>
 
   - stow the `/icons/` from dotfiles
+
+* TODO integrate tmux-awesome-manager :NEOVIM:TASK:
+  SCHEDULED: [2025-10-25 Sat 22:39] DEADLINE: <2025-10-25 Sat>
+
+  - Github: [[https://github.com/otavioschwanck/tmux-awesome-manager.nvim][tmux-awesome-manager]]
