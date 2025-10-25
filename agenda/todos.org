@@ -31,3 +31,8 @@
 
 * TODO checkout [[https://github.com/otavioschwanck/tmux-awesome-manager.nvim][tmux-awesome-manager.nvim]] :TASK:
   SCHEDULED: [2025-09-22 Mon 23:45] DEADLINE: <2025-09-28 Sun>
+
+* TODO update cron for second-brain :TASK:WORK:
+  SCHEDULED: [2025-10-25 Sat 03:40] DEADLINE: <2025-10-25 Sat>
+
+  - stow the `/icons/` from dotfiles
