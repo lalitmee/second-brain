@@ -1,41 +1,10 @@
 #+ARCHIVE: ~/Projects/Personal/Github/second-brain/archive/todos.org::
 
-* DONE checkout [[https://github.com/jj-vcs/jj][jijutsu]]          :NEOVIM:TASK:
-  SCHEDULED: [2025-07-05 Sat 00:46] DEADLINE: <2025-07-27 Sun> CLOSED: [2025-10-25 Sat 01:10]
-
-* TODO update the style of next.js Portfolio  :PORTFOLIO:TASK:
-  SCHEDULED: [2025-08-31 Sun 11:00] DEADLINE: <2025-08-03 Sun>
-
-* DONE fix `git-worktree` switching `node_modules` warning                :TASK:
-  SCHEDULED: [2025-07-14 Mon 17:42] DEADLINE: <2025-07-15 Tue> CLOSED: [2025-07-14 Mon 23:57]
-
-* REJECTED enable web search in avante.nvim                        :NEOVIM:TASK:
-  SCHEDULED: [2025-07-16 Wed 22:41] DEADLINE: <2025-07-27 Sun> CLOSED: [2025-09-07 Sun 00:12]
-
-* DONE checkout [[https://github.com/waiting-for-dev/ergoterm.nvim][egoterm.nvim]] :NEOVIM:TASK:
-  SCHEDULED: [2025-07-21 Mon 23:22] DEADLINE: <2025-07-27 Sun> CLOSED: [2025-10-25 Sat 01:03]
-
-* DONE Update Address in ICICI Bank for Account and Credit Cards          :TASK:
-  SCHEDULED: [2025-08-05 Tue 23:06] DEADLINE: <2025-08-05 Tue> CLOSED: [2025-09-07 Sun 00:12]
-
-* DONE uppdate address in ICICI Bank                                      :TASK:
-  SCHEDULED: [2025-08-19 Tue 18:14] DEADLINE: <2025-08-19 Tue> CLOSED: [2025-09-07 Sun 00:12]
-
-* DONE check if it would be great to add keybindings for second-brain in sxhkdrc :TASK:
-  SCHEDULED: [2025-09-08 Mon 01:13] DEADLINE: <2025-09-14 Sun> CLOSED: [2025-10-25 Sat 01:03]
-  - Note taken on [2025-09-08 Mon 01:15] \\
-    It would be good I think if we can open the todos, scratch or notes from anywhere in i3, maybe we can just have one keybinding that shows up the fzf menu to select what I want to do and then opens up a nvim window
-
 * TODO checkout this [[https://www.reddit.com/r/neovim/comments/1nbiv93/combining_best_of_marks_and_harpoon_with_grapple/][harpoon with grapple]] :TASK:
   SCHEDULED: [2025-09-14 Sun 22:25] DEADLINE: <2025-09-21 Sun>
 
 * TODO checkout [[https://github.com/otavioschwanck/tmux-awesome-manager.nvim][tmux-awesome-manager.nvim]] :TASK:
   SCHEDULED: [2025-09-22 Mon 23:45] DEADLINE: <2025-09-28 Sun>
-
-* TODO update cron for second-brain :TASK:WORK:
-  SCHEDULED: [2025-10-25 Sat 03:40] DEADLINE: <2025-10-25 Sat>
-
-  - stow the `/icons/` from dotfiles
 
 * TODO integrate tmux-awesome-manager :NEOVIM:TASK:
   SCHEDULED: [2025-10-25 Sat 22:39] DEADLINE: <2025-10-25 Sat>
