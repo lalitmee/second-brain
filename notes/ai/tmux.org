@@ -1,0 +1,21 @@
+* Tmux AI Helpers
+
+** Scripting
+
+*** ~tmux display-popup~ Escaping Rules
+    #+BEGIN_SRC markdown
+    I have a shell script that uses `tmux display-popup` with a multi-line string containing shell commands. The string is double-quoted and passed to tmux, which will execute it in a new shell context.
+
+    The problem: Variables and commands inside the popup string are being evaluated by the OUTER shell (the script itself) instead of the INNER shell (the popup environment). This causes errors because variables don't exist yet in the outer shell.
+
+    The solution: I need to escape dollar signs and other special characters so they're preserved as literal text for the inner shell to evaluate.
+
+    Rules for escaping inside `tmux display-popup "..."`:
+    1. `$variable` in outer shell → `\$variable` in popup string (evaluated by inner shell)
+    2. `$(command)` in outer shell → `\$(command)` in popup string
+    3. Variables inside awk/sed patterns need `\$`: `awk '{$1=...}'` → `awk '{\$1=...}'`
+    4. Double quotes inside the string: `"text"` → `\"text\"`
+    5. Do NOT over-escape: `\$variable` is correct, `\\\$\\$variable` is wrong
+
+    When you see a tmux display-popup command, check: does each `$` represent something that should be evaluated NOW (outer shell) or LATER (inner shell)? If LATER, it needs exactly ONE backslash: `\$`
+    #+END_SRC
