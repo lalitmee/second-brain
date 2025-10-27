@@ -6,3 +6,11 @@
   :ARCHIVE_CATEGORY: todos
   :ARCHIVE_TODO: DONE
   :END:
+* REJECTED node version automatically switching                           :TASK:
+  SCHEDULED: [2025-08-29 Fri 23:00] DEADLINE: <2025-08-31 Sun> CLOSED: [2025-10-27 Mon 17:57]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2025-10-27 Mon 17:57
+  :ARCHIVE_FILE: /Users/lalit.kumar1/Projects/Personal/Github/second-brain/archive/todos.org
+  :ARCHIVE_CATEGORY: todos
+  :ARCHIVE_TODO: REJECTED
+  :END:

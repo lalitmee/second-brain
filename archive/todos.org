@@ -79,14 +79,6 @@
   :ARCHIVE_CATEGORY: todos
   :ARCHIVE_TODO: DONE
   :END:
-* TODO node version automatically switching :TASK:
-  SCHEDULED: [2025-08-29 Fri 23:00] DEADLINE: <2025-08-31 Sun>
-  :PROPERTIES:
-  :ARCHIVE_TIME: 2025-09-07 Sun 00:12
-  :ARCHIVE_FILE: /home/lalitmee/Projects/Personal/Github/second-brain/agenda/todos.org
-  :ARCHIVE_CATEGORY: todos
-  :ARCHIVE_TODO: TODO
-  :END:
 * DONE zsh completions for ~z~ or ~zoxide~ command                        :TASK:
   SCHEDULED: [2025-09-09 Tue 01:15] DEADLINE: <2025-09-21 Sun> CLOSED: [2025-09-13 Sat 04:27]
   :PROPERTIES:
@@ -135,3 +127,77 @@
   :ARCHIVE_CATEGORY: todos
   :ARCHIVE_TODO: REJECTED
   :END:
+* REJECTED integrate gh to interact with pull requests in a tmux popup    :TASK:
+  SCHEDULED: [2025-10-08 Wed 13:01] DEADLINE: <2025-10-08 Wed> CLOSED: [2025-10-27 Mon 17:55]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2025-10-27 Mon 17:56
+  :ARCHIVE_FILE: /Users/lalit.kumar1/Projects/Personal/Github/second-brain/agenda/todos.org
+  :ARCHIVE_CATEGORY: todos
+  :ARCHIVE_TODO: REJECTED
+  :END:
+* REJECTED checkout [[https://github.com/jj-vcs/jj][jijutsu]]      :NEOVIM:TASK:
+  SCHEDULED: [2025-07-05 Sat 00:46] DEADLINE: <2025-07-27 Sun> CLOSED: [2025-10-27 Mon 17:55]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2025-10-27 Mon 17:58
+  :ARCHIVE_FILE: /Users/lalit.kumar1/Projects/Personal/Github/second-brain/agenda/todos.org
+  :ARCHIVE_CATEGORY: todos
+  :ARCHIVE_TODO: REJECTED
+  :END:
+* DONE update the style of next.js Portfolio                    :PORTFOLIO:TASK:
+  SCHEDULED: [2025-08-31 Sun 11:00] DEADLINE: <2025-08-03 Sun> CLOSED: [2025-10-27 Mon 17:57]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2025-10-27 Mon 17:58
+  :ARCHIVE_FILE: /Users/lalit.kumar1/Projects/Personal/Github/second-brain/agenda/todos.org
+  :ARCHIVE_CATEGORY: todos
+  :ARCHIVE_TODO: DONE
+  :END:
+* DONE fix `git-worktree` switching `node_modules` warning                :TASK:
+  SCHEDULED: [2025-07-14 Mon 17:42] DEADLINE: <2025-07-15 Tue> CLOSED: [2025-07-14 Mon 23:57]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2025-10-27 Mon 17:58
+  :ARCHIVE_FILE: /Users/lalit.kumar1/Projects/Personal/Github/second-brain/agenda/todos.org
+  :ARCHIVE_CATEGORY: todos
+  :ARCHIVE_TODO: DONE
+  :END:
+* REJECTED enable web search in avante.nvim                        :NEOVIM:TASK:
+  SCHEDULED: [2025-07-16 Wed 22:41] DEADLINE: <2025-07-27 Sun> CLOSED: [2025-09-07 Sun 00:12]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2025-10-27 Mon 17:58
+  :ARCHIVE_FILE: /Users/lalit.kumar1/Projects/Personal/Github/second-brain/agenda/todos.org
+  :ARCHIVE_CATEGORY: todos
+  :ARCHIVE_TODO: REJECTED
+  :END:
+* REJECTED checkout [[https://github.com/waiting-for-dev/ergoterm.nvim][egoterm.nvim]] :NEOVIM:TASK:
+  SCHEDULED: [2025-07-21 Mon 23:22] DEADLINE: <2025-07-27 Sun> CLOSED: [2025-10-27 Mon 17:55]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2025-10-27 Mon 17:58
+  :ARCHIVE_FILE: /Users/lalit.kumar1/Projects/Personal/Github/second-brain/agenda/todos.org
+  :ARCHIVE_CATEGORY: todos
+  :ARCHIVE_TODO: REJECTED
+  :END:
+* DONE Update Address in ICICI Bank for Account and Credit Cards          :TASK:
+  SCHEDULED: [2025-08-05 Tue 23:06] DEADLINE: <2025-08-05 Tue> CLOSED: [2025-09-07 Sun 00:12]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2025-10-27 Mon 17:58
+  :ARCHIVE_FILE: /Users/lalit.kumar1/Projects/Personal/Github/second-brain/agenda/todos.org
+  :ARCHIVE_CATEGORY: todos
+  :ARCHIVE_TODO: DONE
+  :END:
+* DONE uppdate address in ICICI Bank                                      :TASK:
+  SCHEDULED: [2025-08-19 Tue 18:14] DEADLINE: <2025-08-19 Tue> CLOSED: [2025-09-07 Sun 00:12]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2025-10-27 Mon 17:58
+  :ARCHIVE_FILE: /Users/lalit.kumar1/Projects/Personal/Github/second-brain/agenda/todos.org
+  :ARCHIVE_CATEGORY: todos
+  :ARCHIVE_TODO: DONE
+  :END:
+* DONE check if it would be great to add keybindings for second-brain in sxhkdrc :TASK:
+  SCHEDULED: [2025-09-08 Mon 01:13] DEADLINE: <2025-09-14 Sun> CLOSED: [2025-10-27 Mon 17:55]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2025-10-27 Mon 17:58
+  :ARCHIVE_FILE: /Users/lalit.kumar1/Projects/Personal/Github/second-brain/agenda/todos.org
+  :ARCHIVE_CATEGORY: todos
+  :ARCHIVE_TODO: DONE
+  :END:
+  - Note taken on [2025-09-08 Mon 01:15] \\
+    It would be good I think if we can open the todos, scratch or notes from anywhere in i3, maybe we can just have one keybinding that shows up the fzf menu to select what I want to do and then opens up a nvim window
