@@ -45,3 +45,6 @@
    - I want to be able to jump to the next/previous git hunk in a file
    - this can be done with the `:Gitsigns next_hunk` and `:Gitsigns prev_hunk` commands
    - I want to bind these commands to keys for easy access
+
+* TODO Integrate Typescript Go server in LSP :NEOVIM:TASK:
+  SCHEDULED: [2025-10-28 Tue 15:36] DEADLINE: <2025-11-02 Sun>
