@@ -203,3 +203,21 @@
   :END:
   - Note taken on [2025-09-08 Mon 01:15] \\
     It would be good I think if we can open the todos, scratch or notes from anywhere in i3, maybe we can just have one keybinding that shows up the fzf menu to select what I want to do and then opens up a nvim window
+* DONE checkout [[https://github.com/otavioschwanck/tmux-awesome-manager.nvim][tmux-awesome-manager.nvim]] :TASK:
+  SCHEDULED: [2025-09-22 Mon 23:45] DEADLINE: <2025-09-28 Sun> CLOSED: [2025-10-30 Thu 09:50]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2025-10-30 Thu 09:50
+  :ARCHIVE_FILE: /home/lalitmee/Projects/Personal/Github/second-brain/agenda/todos.org
+  :ARCHIVE_CATEGORY: todos
+  :ARCHIVE_TODO: DONE
+  :END:
+* DONE integrate tmux-awesome-manager                              :NEOVIM:TASK:
+  SCHEDULED: [2025-10-25 Sat 22:39] DEADLINE: <2025-10-25 Sat> CLOSED: [2025-10-30 Thu 09:50]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2025-10-30 Thu 09:51
+  :ARCHIVE_FILE: /home/lalitmee/Projects/Personal/Github/second-brain/agenda/todos.org
+  :ARCHIVE_CATEGORY: todos
+  :ARCHIVE_TODO: DONE
+  :END:
+
+  - Github: [[https://github.com/otavioschwanck/tmux-awesome-manager.nvim][tmux-awesome-manager]]

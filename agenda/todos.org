@@ -3,10 +3,5 @@
 * TODO checkout this [[https://www.reddit.com/r/neovim/comments/1nbiv93/combining_best_of_marks_and_harpoon_with_grapple/][harpoon with grapple]] :TASK:
   SCHEDULED: [2025-09-14 Sun 22:25] DEADLINE: <2025-09-21 Sun>
 
-* TODO checkout [[https://github.com/otavioschwanck/tmux-awesome-manager.nvim][tmux-awesome-manager.nvim]] :TASK:
-  SCHEDULED: [2025-09-22 Mon 23:45] DEADLINE: <2025-09-28 Sun>
-
-* TODO integrate tmux-awesome-manager :NEOVIM:TASK:
-  SCHEDULED: [2025-10-25 Sat 22:39] DEADLINE: <2025-10-25 Sat>
-
-  - Github: [[https://github.com/otavioschwanck/tmux-awesome-manager.nvim][tmux-awesome-manager]]
+* TODO integrate other flows in ~tmux.lua~ :NEOVIM:TASK:
+  SCHEDULED: [2025-10-30 Thu 09:50] DEADLINE: <2025-11-02 Sun>
