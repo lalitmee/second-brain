@@ -5,3 +5,7 @@
   - Chrome Extension
   - Firefox Extension
   - Mobile App
+
+* Integrate ~quotable~ api in my ~c-quotes~ project :IDEA:PROJECT:
+
+  - It has a good quotes database :THUMBS_UP: [[https://github.com/lukePeavey/quotable][API]]
