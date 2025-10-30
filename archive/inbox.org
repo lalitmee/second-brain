@@ -14,3 +14,13 @@
   :ARCHIVE_CATEGORY: todos
   :ARCHIVE_TODO: REJECTED
   :END:
+* DONE update cron for second-brain                                  :TASK:WORK:
+  SCHEDULED: [2025-10-25 Sat 03:40] DEADLINE: <2025-10-25 Sat> CLOSED: [2025-10-31 Fri 00:14]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2025-10-31 Fri 00:14
+  :ARCHIVE_FILE: /home/lalitmee/Projects/Work/Github/second-brain/agenda/todos.org
+  :ARCHIVE_CATEGORY: todos
+  :ARCHIVE_TODO: DONE
+  :END:
+
+  - stow the `/icons/` from dotfiles
