@@ -5,3 +5,8 @@
 
 * TODO integrate other flows in ~tmux.lua~ :NEOVIM:TASK:
   SCHEDULED: [2025-10-30 Thu 09:50] DEADLINE: <2025-11-02 Sun>
+
+* TODO checkout compiler setting for eslint :NEOVIM:TASK:
+  SCHEDULED: [2025-11-02 Sun 21:59] DEADLINE: <2025-11-02 Sun>
+
+  - https://github.com/shubham-cpp/dotfiles/blob/2dda2b0cea0be851657f3400f00c8c609a7acd14/.config/nvim-lazy/after/compiler/eslint.lua
