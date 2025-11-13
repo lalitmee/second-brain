@@ -10,3 +10,9 @@
   SCHEDULED: [2025-11-02 Sun 21:59] DEADLINE: <2025-11-02 Sun>
 
   - https://github.com/shubham-cpp/dotfiles/blob/2dda2b0cea0be851657f3400f00c8c609a7acd14/.config/nvim-lazy/after/compiler/eslint.lua
+
+* TODO refactor treesitter.lua for its new version :NEOVIM:TASK:
+  SCHEDULED: [2025-11-14 Fri 00:05] DEADLINE: <2025-11-16 Sun>
+
+* TODO integrate tsgo lsp server for typescript :NEOVIM:TASK:
+  SCHEDULED: [2025-11-14 Fri 00:06] DEADLINE: <2025-11-23 Sun>
