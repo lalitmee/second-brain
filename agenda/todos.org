@@ -16,3 +16,9 @@
 
 * TODO integrate tsgo lsp server for typescript :NEOVIM:TASK:
   SCHEDULED: [2025-11-14 Fri 00:06] DEADLINE: <2025-11-23 Sun>
+
+* TODO update ~/retry~ command for gemini :TASK:
+  SCHEDULED: [2025-11-19 Wed 21:49] DEADLINE: <2025-11-19 Wed>
+
+  - It should not ask for confirmation when I am specifically running the
+    command to retry.
