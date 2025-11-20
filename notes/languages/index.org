@@ -1,0 +1,5 @@
+* Languages
+
+- [[file:javascript.org][JavaScript]]
+- [[file:python.org][Python]]
+- [[file:html-css.org][HTML/CSS]]

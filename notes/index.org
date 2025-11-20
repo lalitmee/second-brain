@@ -1,16 +1,11 @@
-* Notes
-  Here are my notes that I keep looking for.
+* Notes Index
 
-** [[file:./angular.org][Angular]]
-** [[file:./best_practices.org][Best Practices]]
-** [[file:./data_structure.org][Data Structures]]
-** [[file:./emacs.org][Emacs]]
-** [[file:./git.org][Git]]
-** [[file:./html_css.org][HTML & CSS]]
-** [[file:./irc.org][IRC]]
-** [[file:./javascript.org][JavaScript]]
-** [[file:./python.org][Python]]
-** [[file:./react.org][React]]
-** [[file:./terminal.org][Terminal]]
-** [[file:./vim.org][Vim and Neovim]]
-** [[file:./books/index.org][Books]]
+- [[file:books/index.org][Books]]
+- [[file:contexts/][Contexts]]
+- [[file:languages/index.org][Languages]]
+- [[file:frameworks/index.org][Frameworks]]
+- [[file:tools/index.org][Tools]]
+- [[file:concepts/index.org][Concepts]]
+- [[file:misc/index.org][Misc]]
+- [[file:inbox/index.org][Inbox]]
+- [[file:images/][Images]]

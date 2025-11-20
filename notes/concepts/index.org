@@ -1,0 +1,4 @@
+* Concepts
+
+- [[file:best-practices.org][Best Practices]]
+- [[file:data-structure.org][Data Structure]]
