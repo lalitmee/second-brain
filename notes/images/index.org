@@ -1,0 +1,11 @@
+* Images
+
+- [[file:notes/images/grep_comic.jpeg][Grep Comic]]
+  - Description: Comic about grep command usage
+  - Type: JPEG image
+  - Tags: grep, comic, terminal
+
+- [[file:notes/images/list-item-padded.png][List Item Padded]]
+  - Description: Screenshot showing padded list items
+  - Type: PNG image
+  - Tags: ui, screenshot, list

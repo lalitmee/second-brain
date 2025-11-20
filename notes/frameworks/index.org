@@ -1,4 +1,4 @@
 * Frameworks
 
-- [[file:angular.org][Angular]]
-- [[file:react.org][React]]
+- [[file:notes/frameworks/angular.org][Angular]]
+- [[file:notes/frameworks/react.org][React]]

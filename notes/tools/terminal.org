@@ -45,18 +45,18 @@
 
 
 ** Rust Alternatives to Classic Command Line Tools
-   | Rust Tool | Replaces / Alternative to | Key Features & Notes |
-   |-----------|---------------------------|------------------------------------------------------------------------------------------------------------------|
-   | *eza* | `ls` | A modern, maintained successor to `exa`. Features sensible defaults, colors, icons, and Git awareness. |
-   | *bat* | `cat` | Adds syntax highlighting, Git integration, line numbers, and automatic paging while maintaining `cat` compatibility. |
-   | *dust* | `du` | Provides a compact, visual representation of disk usage (tree-like) that is easier to parse at a glance. |
-   | *fd* | `find` | Faster and simpler syntax than `find`. Ignores hidden files and `.gitignore` patterns by default. |
-   | *ripgrep (rg)* | `grep` | Dramatically faster search with color highlighting. Respects `.gitignore` rules automatically. |
-   | *procs* | `ps` | A structured, color-coded view of system processes, making it easier to read than standard `ps aux`. |
-   | *tldr* | `man` | Simplified man pages focusing on practical examples and essential flags rather than exhaustive documentation. |
-   | *broot* | `tree` | Interactive directory navigation. Allows you to collapse/expand folders and search, unlike the static output of `tree`. |
-   | *zoxide* | `cd` | Tracks your most visited directories, allowing you to "jump" to them without typing the full path. |
-   | *lsd* | `ls` | Another `ls` alternative focused on visuals, adding built-in icons and vibrant colors to directory listings. |
-   | *bottom* | `top` | A graphical process monitor with real-time graphs for CPU, memory, and disk usage. |
-   | *hyperfine* | `time` | A command-line benchmarking tool. Runs commands multiple times to provide statistical comparisons of execution speed. |
-   | *xplr* | `nnn` | A terminal file explorer with file previews, Vim-style keybindings, and customizable layouts. |
+   | Rust Tool    | Replaces / Alternative to | Key Features & Notes                                                                                                    |
+   |--------------+---------------------------+-------------------------------------------------------------------------------------------------------------------------|
+   | *eza*          | `ls`                      | A modern, maintained successor to `exa`. Features sensible defaults, colors, icons, and Git awareness.                  |
+   | *bat*          | `cat`                     | Adds syntax highlighting, Git integration, line numbers, and automatic paging while maintaining `cat` compatibility.    |
+   | *dust*         | `du`                      | Provides a compact, visual representation of disk usage (tree-like) that is easier to parse at a glance.                |
+   | *fd*           | `find`                    | Faster and simpler syntax than `find`. Ignores hidden files and `.gitignore` patterns by default.                       |
+   | *ripgrep (rg)* | `grep`                    | Dramatically faster search with color highlighting. Respects `.gitignore` rules automatically.                          |
+   | *procs*        | `ps`                      | A structured, color-coded view of system processes, making it easier to read than standard `ps aux`.                    |
+   | *tldr*         | `man`                     | Simplified man pages focusing on practical examples and essential flags rather than exhaustive documentation.           |
+   | *broot*        | `tree`                    | Interactive directory navigation. Allows you to collapse/expand folders and search, unlike the static output of `tree`. |
+   | *zoxide*       | `cd`                      | Tracks your most visited directories, allowing you to "jump" to them without typing the full path.                      |
+   | *lsd*          | `ls`                      | Another `ls` alternative focused on visuals, adding built-in icons and vibrant colors to directory listings.            |
+   | *bottom*       | `top`                     | A graphical process monitor with real-time graphs for CPU, memory, and disk usage.                                      |
+   | *hyperfine*    | `time`                    | A command-line benchmarking tool. Runs commands multiple times to provide statistical comparisons of execution speed.   |
+   | *xplr*         | `nnn`                     | A terminal file explorer with file previews, Vim-style keybindings, and customizable layouts.                           |

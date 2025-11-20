@@ -87,8 +87,8 @@
   :ARCHIVE_CATEGORY: todos
   :ARCHIVE_TODO: DONE
   :END:
-* CANCELLED call yash tomorrow                                            :TASK:
-  SCHEDULED: [2025-09-11 Thu 18:20] DEADLINE: <2025-09-12 Fri> CLOSED: [2025-09-13 Sat 04:28]
+* KILL CANCELLED call yash tomorrow :TASK:
+  CLOSED: [2025-11-21 Fri 00:40] SCHEDULED: [2025-09-11 Thu 18:20] DEADLINE: <2025-09-12 Fri>
   :PROPERTIES:
   :ARCHIVE_TIME: 2025-09-13 Sat 04:28
   :ARCHIVE_FILE: /home/lalitmee/Projects/Personal/Github/second-brain/agenda/todos.org
@@ -111,16 +111,16 @@
   :ARCHIVE_CATEGORY: todos
   :ARCHIVE_TODO: DONE
   :END:
-* REJECTED make the ai-tool completed message centered using gum          :TASK:
-  SCHEDULED: [2025-09-16 Tue 22:52] DEADLINE: <2025-09-21 Sun> CLOSED: [2025-09-17 Wed 18:49]
+* KILL REJECTED make the ai-tool completed message centered using gum :TASK:
+  CLOSED: [2025-11-21 Fri 00:40] SCHEDULED: [2025-09-16 Tue 22:52] DEADLINE: <2025-09-21 Sun>
   :PROPERTIES:
   :ARCHIVE_TIME: 2025-09-17 Wed 18:49
   :ARCHIVE_FILE: /Users/lalit.kumar1/Projects/Personal/Github/second-brain/agenda/todos.org
   :ARCHIVE_CATEGORY: todos
   :ARCHIVE_TODO: REJECTED
   :END:
-* REJECTED integrate gh in tmux display-popup for Reposistories opening   :TASK:
-  SCHEDULED: [2025-07-23 Wed 17:04] DEADLINE: <2025-08-10 Sun> CLOSED: [2025-09-17 Wed 18:49]
+* KILL REJECTED integrate gh in tmux display-popup for Reposistories opening :TASK:
+  CLOSED: [2025-11-21 Fri 00:40] SCHEDULED: [2025-07-23 Wed 17:04] DEADLINE: <2025-08-10 Sun>
   :PROPERTIES:
   :ARCHIVE_TIME: 2025-09-17 Wed 18:49
   :ARCHIVE_FILE: /Users/lalit.kumar1/Projects/Personal/Github/second-brain/agenda/todos.org
@@ -161,8 +161,8 @@
   :ARCHIVE_CATEGORY: todos
   :ARCHIVE_TODO: DONE
   :END:
-* REJECTED enable web search in avante.nvim                        :NEOVIM:TASK:
-  SCHEDULED: [2025-07-16 Wed 22:41] DEADLINE: <2025-07-27 Sun> CLOSED: [2025-09-07 Sun 00:12]
+* KILL REJECTED enable web search in avante.nvim :NEOVIM:TASK:
+  CLOSED: [2025-11-21 Fri 00:40] SCHEDULED: [2025-07-16 Wed 22:41] DEADLINE: <2025-07-27 Sun>
   :PROPERTIES:
   :ARCHIVE_TIME: 2025-10-28 Tue 00:19
   :ARCHIVE_FILE: /home/lalitmee/Projects/Personal/Github/second-brain/agenda/todos.org

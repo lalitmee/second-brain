@@ -1,4 +1,4 @@
 * Misc
 
-- [[file:books.org][Books]]
-- [[file:something.org][Something]]
+- [[file:notes/misc/books.org][Books]]
+- [[file:notes/misc/something.org][Something]]

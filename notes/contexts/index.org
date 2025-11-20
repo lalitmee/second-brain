@@ -1,0 +1,9 @@
+* Contexts
+
+- [[file:notes/contexts/dotfiles/][Dotfiles]]
+  - [[file:notes/contexts/dotfiles/CLAUDE.md][CLAUDE]]
+  - [[file:notes/contexts/dotfiles/CONTEXT.md][CONTEXT]]
+  - [[file:notes/contexts/dotfiles/GEMINI.md][GEMINI]]
+
+- [[file:notes/contexts/global/][Global]]
+  - [[file:notes/contexts/global/GEMINI.md][GEMINI]]

@@ -1,5 +1,5 @@
 * Languages
 
-- [[file:javascript.org][JavaScript]]
-- [[file:python.org][Python]]
-- [[file:html-css.org][HTML/CSS]]
+- [[file:notes/languages/javascript.org][JavaScript]]
+- [[file:notes/languages/python.org][Python]]
+- [[file:notes/languages/html-css.org][HTML/CSS]]

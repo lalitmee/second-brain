@@ -1,7 +1,7 @@
 * Tools
 
-- [[file:git.org][Git]]
-- [[file:terminal.org][Terminal]]
-- [[file:irc.org][IRC]]
-- [[file:emacs.org][Emacs]]
-- [[file:vim.org][Vim]]
+- [[file:notes/tools/git.org][Git]]
+- [[file:notes/tools/terminal.org][Terminal]]
+- [[file:notes/tools/irc.org][IRC]]
+- [[file:notes/tools/emacs.org][Emacs]]
+- [[file:notes/tools/vim.org][Vim]]
