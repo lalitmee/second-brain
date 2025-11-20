@@ -48,3 +48,6 @@
 
 * TODO Integrate Typescript Go server in LSP :NEOVIM:TASK:
   SCHEDULED: [2025-10-28 Tue 15:36] DEADLINE: <2025-11-02 Sun>
+
+* TODO update ~crontab~ with ~cobalt2.nvim~ and ~browse.nvim~ :TASK:
+  SCHEDULED: [2025-11-20 Thu 14:46] DEADLINE: <2025-11-20 Thu>
