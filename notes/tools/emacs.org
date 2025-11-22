@@ -140,6 +140,9 @@
           #'add-fira-code-symbol-keywords)
 #+END_SRC
 
+#+RESULTS:
+| add-fira-code-symbol-keywords | hl-todo-mode | +corfu-add-cape-file-h | display-line-numbers-mode | vi-tilde-fringe-mode |
+
 [[https://gist.github.com/alphapapa/0d38f082e609ed059cc7f2ed9caa7e3d][Gist Link]]
 * Emacs Configurations Online (To Checkout)
 ** Github
