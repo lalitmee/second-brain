@@ -1,0 +1,16 @@
+
+* Portfolio Projects :NOTE:
+  [2025-12-09 Tue 00:15]
+
+  Here are the Projects List that I want you to check and then create an order for me to review:
+  - https://github.com/lalitmee/ud-myreads
+  - https://github.com/lalitmee/ud-neighborhood-map
+  - https://github.com/lalitmee/ud-restaurant-rewiews-stage1
+  - https://github.com/lalitmee/ud-feedreader-testing
+  - https://github.com/lalitmee/ud-portfolio
+  - https://github.com/lalitmee/ud-classic-arcade-game
+  - https://github.com/lalitmee/ud-memory-game
+  - https://github.com/lalitmee/Ud-Pixel-Art-Maker
+  - https://github.com/lalitmee/github-search
+  - https://github.com/lalitmee/browse.nvim
+  - https://github.com/lalitmee/cobalt2.nvim
