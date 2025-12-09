@@ -1,2 +1,39 @@
 * Org mode is great :NOTE:
   [2025-06-27 Fri 00:57]
+
+* Playwright MCP Tools :NOTE:
+  [2025-12-09 Tue 12:24]
+
+  - playwright:browser_click
+  - playwright:browser_close
+  - playwright:browser_console_messages
+  - playwright:browser_drag
+  - playwright:browser_evaluate
+  - playwright:browser_file_upload
+  - playwright:browser_fill_form
+  - playwright:browser_handle_dialog
+  - playwright:browser_hover
+  - playwright:browser_navigate
+  - playwright:browser_navigate_back
+  - playwright:browser_network_requests
+  - playwright:browser_press_key
+  - playwright:browser_resize
+  - playwright:browser_run_code
+  - playwright:browser_select_option
+  - playwright:browser_snapshot
+  - playwright:browser_take_screenshot
+  - playwright:browser_type
+  - playwright:browser_wait_for
+  - playwright:browser_tabs
+  - playwright:browser_install
+  - playwright:browser_mouse_click_xy
+  - playwright:browser_mouse_drag_xy
+  - playwright:browser_mouse_move_xy
+  - playwright:browser_pdf_save
+  - playwright:browser_generate_locator
+  - playwright:browser_verify_element_visible
+  - playwright:browser_verify_list_visible
+  - playwright:browser_verify_text_visible
+  - playwright:browser_verify_value
+  - playwright:browser_start_tracing
+  - playwright:browser_stop_tracing
