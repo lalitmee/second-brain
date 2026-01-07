@@ -1,0 +1,42 @@
+* ChatGPT Tips and Tricks
+
+** ChatGPT Secret Codes (from "99% of Users Don’t Know About These 10 ChatGPT Secret Codes")
+*** 1. ELI5 — Explain Like I'm 5
+    - Usage: ~ELI5: [topic]~
+    - Description: Ask ChatGPT to explain a topic as simply as possible, as if teaching a five-year-old. Great for breaking down complex ideas quickly. :contentReference[oaicite:1]{index=1}
+
+*** 2. TL;DR — Instant Summaries
+    - Usage: Paste text, then prompt with ~TL;DR~
+    - Description: Summarizes long blocks of text concisely with no fluff. Especially useful for articles, papers, or long emails. :contentReference[oaicite:2]{index=2}
+
+*** 3. Jargonize — Professional Mode
+    - Usage: ~Jargonize this~
+    - Description: Transforms text into a more technical, professional tone — good for LinkedIn posts, pitch decks, and corporate writing. :contentReference[oaicite:3]{index=3}
+
+*** 4. Humanize — Kill the AI Voice
+    - Usage: ~Humanize this~
+    - Description: Makes AI-generated text sound more natural and human, avoiding robotic marketing phrases or generic AI language. :contentReference[oaicite:4]{index=4}
+
+*** 5. The Feynman Technique — Real Understanding
+    - Usage: ~Explain using the Feynman Technique~
+    - Description: Encourages a deeper learning process by having ChatGPT explain a concept simply, identify gaps, then refine the explanation for true understanding. :contentReference[oaicite:5]{index=5}
+
+*** 6. Socratic Method — Interactive Learning
+    - Usage: ~Teach me [topic] using the Socratic method~
+    - Description: ChatGPT adopts a questioning approach, teaching interactively based on your answers, like a private tutor. :contentReference[oaicite:6]{index=6}
+
+*** 7. Rewrite Like [Specific Person]
+    - Usage: ~Rewrite like a [specific person]~
+    - Description: Rewrites text in the style or tone of a named personality (e.g., sarcastic Redditor, Alex Hormozi, Steve Jobs), making it feel native to that voice. :contentReference[oaicite:7]{index=7}
+
+*** 8. Inverse Prompt — Reverse Engineering Genius
+    - Usage: ~What prompt would generate this response?~ (after pasting text)
+    - Description: Asks ChatGPT to reverse-engineer an existing piece of writing and suggest a prompt that could produce it — useful for learning effective prompt design. :contentReference[oaicite:8]{index=8}
+
+*** 9. Temperature Control — Creativity Dial
+    - Usage: Ask for responses with high or low creativity
+    - Description: Adjusts response randomness — high creativity for bold, unexpected ideas; low randomness for precise, focused answers. :contentReference[oaicite:9]{index=9}
+
+*** 10. Self-Critique — Auto Improvement Mode
+    - Usage: After any reply, prompt: ~Now critique your response and improve it for clarity and tone~
+    - Description: Tells ChatGPT to analyze and enhance its own response, typically yielding a clearer, more refined version. :contentReference[oaicite:10]{index=10}
