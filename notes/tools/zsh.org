@@ -1,0 +1,105 @@
+* Zsh Tips and Tricks
+
+** 10 Zsh Hacks (Dreams of Code)
+
+*** 1. Edit Command Buffer
+This widget allows you to open the current terminal command buffer inside your configured text editor (like Neovim). This is much more efficient than navigating the line with arrow keys when fixing mistakes in long commands.
+
+#+BEGIN_SRC sh
+# Add to .zshrc
+autoload -z edit-command-line
+zle -N edit-command-line
+bindkey "^X^E" edit-command-line
+#+END_SRC
+
+*** 2. Undo (and Redo)
+Zsh allows you to undo the last action taken in the command line, such as accidentally deleting a block of text. While there is also a "redo" widget, the undo function is particularly useful for recovering from text deletion errors.
+
+#+BEGIN_SRC sh
+# Default binding usually exists, but you can press:
+# Control + Underscore (^_)
+# to undo the last text edit in the buffer.
+#+END_SRC
+
+*** 3. Magic Space
+This widget expands history commands (like ~!!~) immediately when you press the space bar, showing you exactly what command will be executed. This prevents the "Russian roulette" of running ~sudo !!~ without knowing what the previous command was.
+
+#+BEGIN_SRC sh
+# Binds the space key to expand history
+bindkey ' ' magic-space
+#+END_SRC
+
+*** 4. The ~chpwd~ Hook
+This hook executes a specific command or function every time you change into a new directory. It is highly useful for automatically listing files (~ls~), loading Python virtual environments, or activating Nix shells upon entering a project folder,.
+
+#+BEGIN_SRC sh
+# Example: Automatically run ls when entering a directory
+function chpwd() {
+    ls
+}
+#+END_SRC
+
+*** 5. Suffix Aliases
+These allow you to define a default tool to open a file based on its file extension (suffix), removing the need to type the command name first. You can simply type the filename (e.g., ~readme.md~) to open it.
+
+#+BEGIN_SRC sh
+# Open .go files in the default editor automatically
+alias -s go=$EDITOR
+# Open .md files in bat
+alias -s md=bat
+#+END_SRC
+
+*** 6. Global Aliases
+Unlike standard aliases which only work at the start of a line, global aliases (defined with ~-g~) can be used anywhere in a command. They are perfect for commonly used pipes or redirections, such as sending errors to ~/dev/null~.
+
+#+BEGIN_SRC sh
+# Define a global alias for silencing errors
+alias -g NE="2> /dev/null"
+
+# Usage example:
+# du -h /root NE
+#+END_SRC
+
+*** 7. ZMV (Zsh Move)
+ZMV is a powerful command for batch renaming or moving files using pattern matching. It must be autoloaded first, but it allows for complex operations like changing file extensions without writing a loop or script.
+
+#+BEGIN_SRC sh
+autoload -U zmv
+
+# Rename all .log files to .txt
+# '(*)' captures the filename, '$1' references it
+zmv '(*).log' '$1.txt'
+#+END_SRC
+
+*** 8. Named Directories (Hash)
+You can "bookmark" specific directories using the hash command with the ~-d~ flag. This allows you to navigate to deep file paths quickly using a tilde expansion syntax (e.g., ~hello~).
+
+#+BEGIN_SRC sh
+# Create a named directory 'yt'
+hash -d yt=~/Documents/Projects/YouTube
+
+# Usage: Navigate quickly
+cd ~yt
+#+END_SRC
+
+*** 9. Custom Widgets
+Zsh allows you to define custom functions (widgets) to perform actions on the command buffer rather than just executing commands. Examples include custom logic to clear the screen while keeping the current text buffer.
+
+#+BEGIN_SRC sh
+# Define a widget to copy the current buffer to the system clipboard
+function copy-buffer() {
+    echo -n $BUFFER | pbcopy # or xclip
+}
+
+zle -N copy-buffer
+bindkey "^X^C" copy-buffer
+#+END_SRC
+
+*** 10. Hotkeys for Insertion
+You can configure specific key combinations to insert text directly into the command buffer and position the cursor automatically. This is ideal for boilerplate commands like Git commits where you always need to fill in a specific section.
+
+#+BEGIN_SRC sh
+# Bind Ctrl+X followed by g+c to insert git commit boilerplate
+# ^B moves the cursor back one character (inside the quotes)
+bindkey -s '^Xgc' 'git commit -m ""^B'
+#+END_SRC
