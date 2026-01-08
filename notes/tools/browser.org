@@ -1,0 +1,120 @@
+* Browser Tools
+
+** 13 Open-Source Apps You Can Use from a Web Browser
+A curated list of open-source applications that run entirely in a browser, useful for productivity, collaboration, design, and development without installing software.
+
+- Source: It’s FOSS
+- Author: Abhishek Prakash
+- Date: Not explicitly stated
+- Tags: open-source, web-apps, productivity, privacy
+
+*** ONLYOFFICE (DocSpace)
+- Full open-source office suite accessible from a web browser.
+- Supports collaborative editing with room-based access control.
+- AGPL-3.0 licensed; public instance available.
+- Link: [[https://www.onlyoffice.com][ONLYOFFICE]]
+
+*** OpenCut
+- Open-source, browser-based video editor.
+- Intended as a CapCut alternative with local processing.
+- Still early in development.
+- Link: [[https://opencut.app][OpenCut]]
+
+*** CryptPad
+- Privacy-first online collaboration suite with end-to-end encryption.
+- Includes documents, spreadsheets, kanban boards, forms, and markdown.
+- Can be used via public instance or self-hosted.
+- Link: [[https://cryptpad.fr][CryptPad]]
+
+*** DocuSeal
+- Open-source document filling and e-signature solution.
+- Browser-based with a free tier and paid plans.
+- AGPL-3.0 licensed.
+- Link: [[https://docuseal.com][DocuSeal]]
+
+*** Excalidraw
+- Lightweight online whiteboard and sketching tool.
+- Ideal for diagrams, brainstorming, and quick visual explanations.
+- Supports encrypted collaboration.
+- Link: [[https://excalidraw.com][Excalidraw]]
+
+*** Grist (Grist Core)
+- Spreadsheet-like interface backed by a relational database.
+- Suitable for structured data, workflows, and internal tools.
+- Open-core model with Apache-2.0 licensed core.
+- Link: [[https://www.getgrist.com][Grist]]
+
+*** Graphite
+- Web-based open-source 2D graphics editor.
+- Inspired by Blender’s workflow for vector and raster graphics.
+- Runs locally in the browser; Apache-2.0 licensed.
+- Link: [[https://graphite.art][Graphite]]
+
+*** Penpot
+- Open-source UI/UX design and prototyping tool.
+- Web-based alternative to Figma with team collaboration.
+- Fully open-source and self-hostable.
+- Link: [[https://penpot.app][Penpot]]
+
+*** Godot Web Editor
+- Browser version of the Godot game engine editor.
+- Useful for learning and quick experimentation.
+- Feature-limited compared to the desktop editor.
+- Link: [[https://editor.godotengine.org][Godot Web Editor]]
+
+*** Jitsi Meet
+- Open-source video conferencing tool built on WebRTC.
+- No account required for public instances.
+- Apache-2.0 licensed.
+- Link: [[https://meet.jit.si][Jitsi Meet]]
+
+*** Mermaid Live
+- Browser-based editor for creating diagrams from text.
+- Useful for documentation, flowcharts, and architecture diagrams.
+- MIT-licensed.
+- Link: [[https://mermaid.live][Mermaid Live]]
+
+*** Taiga
+- Open-source agile project management tool.
+- Supports Scrum and Kanban methodologies.
+- Offers hosted service and self-hosting options.
+- Link: [[https://taiga.io][Taiga]]
+
+*** Squoosh
+- Open-source image compression and optimization tool.
+- Processes images locally in the browser.
+- Apache-2.0 licensed.
+- Link: [[https://squoosh.app][Squoosh]]
+
+*** LanguageTool
+- Grammar, spelling, and style checker with a web interface.
+- Open-core project with free and paid plans.
+- Useful for proofreading text without installing software.
+- Link: [[https://languagetool.org][LanguageTool]]
+
+*** GitLab
+- Web-based Git repository management platform.
+- Provides CI/CD, issues, and merge requests.
+- Open-core with a free community edition.
+- Link: [[https://gitlab.com][GitLab]]
+
+*** Codeberg
+- Community-driven Git hosting platform based on Forgejo.
+- Focuses on open-source and non-commercial projects.
+- Free to use and privacy-respecting.
+- Link: [[https://codeberg.org][Codeberg]]
+
+*** Element Web
+- Web client for the Matrix decentralized chat network.
+- Supports end-to-end encrypted messaging.
+- Open-source and usable without installation.
+- Link: [[https://app.element.io][Element Web]]
+
+*** OpenStreetMap
+- Collaborative, open-source world map platform.
+- Web editor allows map contributions directly in the browser.
+- Data used by many open mapping services.
+- Link: [[https://www.openstreetmap.org][OpenStreetMap]]
+
+*** References
+- Link: [[https://itsfoss.com/open-source-apps-from-web-browser/][13 Open-Source Apps I Use from a Web Browser (It’s FOSS)]]
